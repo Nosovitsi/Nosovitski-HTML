@@ -1,7 +1,11 @@
-body {
-    margin: 100px;
+.table {
+    position: relative;
+    width: 500px;
+    margin: auto;
 }
 
-.table {
-    width: 100%;
+.table1 {
+    position: relative;
+    width: 250px;
+    margin: auto;
 }
