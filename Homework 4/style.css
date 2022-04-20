@@ -1,0 +1,18 @@
+body {
+    margin: 50px 100px 50px;
+}
+
+.content {
+    display: flex;
+}
+
+.right img {
+    padding-top: 5%;
+    width: 110%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
