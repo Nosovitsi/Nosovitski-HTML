@@ -1,18 +1,11 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    min-height: 100vh;
-    background-image: url("./kraska_razvody_puzyri_139960_3840x2160.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.main {
+.table {
+    position: relative;
+    width: 700px;
     margin: 0 auto;
 }
 
