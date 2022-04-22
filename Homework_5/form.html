@@ -21,7 +21,7 @@
             <col width="50%">
             <col width="50%">
             <tr>
-                <td valign="top"> <b>Простая форма поиска с вариантами:</b>
+                <td valign="top"> <br><b>Простая форма поиска с вариантами:</b>
                     <br>
                     <br>
                     <form action="http://fe.it-academy.by/TestForm.php" method="get">
@@ -33,13 +33,13 @@
                         </fieldset>
                     </form>
                 </td>
-                <td valign="top"> <b>Простая форма поиска с вариантами:</b>
+                <td valign="top"> <br><b>Простая форма поиска с вариантами:</b>
                     <br>
                     <br>
                     <form action="http://fe.it-academy.by/TestForm.php" method="get">
                         <fieldset>
                             <legend>Строка поиска</legend>
-                            <input type="text" name="search" size="10" autofocus required><sup><small>&#42; </small></sup><input type="submit" value="Искать">
+                            <input type="text" name="search" size="10" autofocus required><sup><small> &#42; </small></sup><input type="submit" value="Искать">
                             <br> <input type="radio" value="status1" name="status"> на сайте <input type="radio" value="status2" name="status" checked> в google
                             <br> <i><small>&#42;</small> - обязательное поле</i>
                             <br> <i>Автофокус в поле поиска</i>
@@ -48,21 +48,21 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top"> <b>Простая форма авторизации:</b>
+                <td valign="top"> <br><b>Простая форма авторизации:</b>
                     <br>
                     <br>
                     <form action="http://fe.it-academy.by/TestForm.php" method="post">
                         <fieldset>
                             <legend>Авторизация</legend>
-                            <input type="text" name="FIO" required placeholder="Это обязательное поле"><sup><small>&#42; </small></sup>Логин
-                            <br> <input type="password" name="Parol" required placeholder="Это обязательное поле"><sup><small>&#42; </small></sup>Пароль
+                            <input type="text" name="FIO" required placeholder="Это обязательное поле"><sup><small> &#42; </small></sup>Логин
+                            <br> <input type="password" name="Parol" required placeholder="Это обязательное поле"><sup><small> &#42; </small></sup>Пароль
                             <br> <input type="checkbox" name="status"> Оставаться в системе
                             <br> <input type="submit" value="Войти" name="enter">
                             <br> <i><small>&#42;</small> - обязательное поле</i>
                         </fieldset>
                     </form>
                 </td>
-                <td valign="top"> <b>Опрос(голосование):</b>
+                <td valign="top"> <br><b>Опрос(голосование):</b>
                     <br>
                     <br>
                     <form action="http://fe.it-academy.by/TestForm.php" method="get">
@@ -78,25 +78,67 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top"> <b>Отзыв:</b>
+                <td valign="top"> <br><b>Отзыв:</b>
                     <br>
                     <br>
-                    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+                    <form action="http://fe.it-academy.by/TestForm.php" method="post">
                         <fieldset>
                             <legend>Оставьте Ваш отзыв</legend>
-                            <input type="text" name="FIO" required placeholder="Это обязательное поле"><sup><small>&#42; </small></sup>Имя
-                            <br> <input type="email" name="e-mail" required placeholder="Это обязательное поле"><sup><small>&#42; </small></sup>e-mail
-                            <br> <input type="submit" value="Отправить" name="enter">
-                            <br> <i><small>&#42;</small> - обязательное поле</i>
+                            <input type="text" name="FIO" required placeholder="Это обязательное поле"><sup><small>&#42; </small></sup> Имя
+                            <br> <input type="email" name="e-mail" required placeholder="Это обязательное поле"><sup><small>&#42; </small></sup> e-mail
+                            <br><textarea name="forma" cols="15" rows="2">Форма отправки
+                            </textarea>
+                            <br> <input type=" submit " value="Отправить " name="enter ">
+                            <br> <i><small> &#42;</small> - обязательное поле</i>
                             <br> <i>поле email - с проверкой</i>
                             <br> <i>метод POST</i>
                         </fieldset>
                     </form>
                 </td>
-                <td>7</td>
+                <td valign="top"> <br><b>Выпадающий и мульти списки:</b>
+                    <br>
+                    <br>
+                    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+                        <fieldset>
+                            <legend>Города РБ</legend>
+                            <select name="choice">
+                                <option value="1">Брест</option>
+                                <option value="2">Минск</option>
+                                <option value="3">Витебск</option>
+                            </select>
+                            <select name="choice" "list[]" size="8" multiple>
+                                <optgroup label="Города РБ">
+                                <option value="1">Брест</option>
+                                <option value="2">Минск</option>
+                                <option value="3">Витебск</option>
+                            </optgroup>
+                            <optgroup label="Города России">
+                                <option value="4">Москва</option>
+                                <option value="5">Рязань</option>
+                                <option value="6">Магадан</option>
+                            </optgroup>
+                            </select>
+                        </fieldset>
+                    </form>
+                </td>
             </tr>
             <tr>
-                <td>1</td>
+                <td valign="top "> <br><b>Загрузка файла на сервер:</b>
+                    <br>
+                    <br>
+                    <form action="http://fe.it-academy.by/TestForm.php " method="post " enctype="multipart/form-data ">
+                        <fieldset>
+                            <legend>Upload</legend>
+                            <input type="file" name="file ">
+                            <br> Срок хранения (года):
+                            <br> <input type="text " name="data " size="7 "> <input type="submit " value="Загрузить " name="load ">
+                            <br> <i>Метод POST</i>
+                            <br> <i>В теге form используйте атрибут</i>
+                            <br> <i>enctype="multipart/form-data " для отправки</i>
+                            <br> <i>файла на сервер</i>
+                        </fieldset>
+                    </form>
+                </td>
                 <td>2</td>
             </tr>
         </table>
