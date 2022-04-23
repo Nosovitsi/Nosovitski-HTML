@@ -4,7 +4,7 @@
 
 main {
     margin: 0 auto;
-    width: 80%;
+    width: 800px;
 }
 
 .left {
@@ -16,4 +16,17 @@ main {
 
 p {
     font-family: 'Caveat';
+    text-indent: 20px
+}
+
+sub {
+    font-size: 20px;
+}
+
+span {
+    font-size: larger;
+}
+
+sup {
+    font-size: 35px;
 }
