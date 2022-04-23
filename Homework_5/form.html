@@ -54,8 +54,8 @@
                     <form action="http://fe.it-academy.by/TestForm.php" method="post">
                         <fieldset>
                             <legend>Авторизация</legend>
-                            <input type="text" name="FIO" required placeholder="Это обязательное поле"><sup><small> &#42; </small></sup>Логин
-                            <br> <input type="password" name="Parol" required placeholder="Это обязательное поле"><sup><small> &#42; </small></sup>Пароль
+                            <input type="text" name="FIO" required placeholder="Это обязательное поле"><sup><small> &#42; </small></sup> Логин
+                            <br> <input type="password" name="Parol" required placeholder="Это обязательное поле"><sup><small> &#42; </small></sup> Пароль
                             <br> <input type="checkbox" name="status"> Оставаться в системе
                             <br> <input type="submit" value="Войти" name="enter">
                             <br> <i><small>&#42;</small> - обязательное поле</i>
@@ -88,7 +88,7 @@
                             <br> <input type="email" name="e-mail" required placeholder="Это обязательное поле"><sup><small>&#42; </small></sup> e-mail
                             <br><textarea name="forma" cols="15" rows="2">Форма отправки
                             </textarea>
-                            <br> <input type=" submit " value="Отправить " name="enter ">
+                            <br> <input type="submit" value="Отправить" name="enter">
                             <br> <i><small> &#42;</small> - обязательное поле</i>
                             <br> <i>поле email - с проверкой</i>
                             <br> <i>метод POST</i>
@@ -123,15 +123,15 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top "> <br><b>Загрузка файла на сервер:</b>
+                <td valign="top"> <br><b>Загрузка файла на сервер:</b>
                     <br>
                     <br>
                     <form action="http://fe.it-academy.by/TestForm.php " method="post " enctype="multipart/form-data ">
                         <fieldset>
                             <legend>Upload</legend>
-                            <input type="file" name="file ">
+                            <input type="file" name="file">
                             <br> Срок хранения (года):
-                            <br> <input type="text " name="data " size="7 "> <input type="submit " value="Загрузить " name="load ">
+                            <br> <input type="text" name="data" size="7"> <input type="submit" value="Загрузить" name="load ">
                             <br> <i>Метод POST</i>
                             <br> <i>В теге form используйте атрибут</i>
                             <br> <i>enctype="multipart/form-data " для отправки</i>
@@ -139,7 +139,20 @@
                         </fieldset>
                     </form>
                 </td>
-                <td>2</td>
+                <td valign="top"> <br><b>Валидация данных HTML5:</b>
+                    <br>
+                    <br>
+                    <form action="http://fe.it-academy.by/TestForm.php " method="post " enctype="multipart/form-data ">
+                        <fieldset>
+                            <legend>Строка поиска</legend>
+                            <input type="text" name="file" pattern="[А-Я]" placeholder="Только русские буквы" name="field">
+                            <br> <i>Телефонный номер в формате</i>
+                            <br> <i>+ХХХ-ХХ-ХХХХХХХ, где Х - любое число</i>
+                            <br> <input type="text" name="tel" pattern="[0-9]{0-9}">
+                            <br> <input type="submit" value="Отправить" name="enter">
+                        </fieldset>
+                    </form>
+                </td>
             </tr>
         </table>
     </div>
