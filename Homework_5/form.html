@@ -27,7 +27,7 @@
                     <form action="http://fe.it-academy.by/TestForm.php" method="get">
                         <fieldset>
                             <legend>Строка поиска</legend>
-                            <input type="text" name="search" size="10"> <input type="submit" value="Искать">
+                            <input type="text" name="search" size="10" pattern="{.10}"> <input type="submit" value="Искать">
                             <br> <input type="radio" value="status1" name="status" checked> на сайте <input type="radio" value="status2" name="status"> в google
                             <br> <i>Длина запроса не более 10 символов</i>
                         </fieldset>
@@ -145,7 +145,7 @@
                     <form action="http://fe.it-academy.by/TestForm.php " method="post " enctype="multipart/form-data ">
                         <fieldset>
                             <legend>Строка поиска</legend>
-                            <input type="text" name="file" pattern="[А-Я]" placeholder="Только русские буквы" name="field">
+                            <input type="text" name="file" pattern="^[А-Я][а-я]$" placeholder="Только русские буквы" name="field">
                             <br> <i>Телефонный номер в формате</i>
                             <br> <i>+ХХХ-ХХ-ХХХХХХХ, где Х - любое число</i>
                             <br> <input type="text" name="tel" pattern="[0-9]{0-9}">
