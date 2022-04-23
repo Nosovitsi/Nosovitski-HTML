@@ -73,6 +73,7 @@
                             <br><input type="radio" value="status3" name="status"> хорошо
                             <br><input type="radio" value="status4" name="status"> супер
                             <br> <input type="submit" value="Отправить" name="choice">
+                            <br> <input type="hidden" name="date_voite" value="2013.12.31">
                         </fieldset>
                     </form>
                 </td>
@@ -145,10 +146,10 @@
                     <form action="http://fe.it-academy.by/TestForm.php " method="post " enctype="multipart/form-data ">
                         <fieldset>
                             <legend>Строка поиска</legend>
-                            <input type="text" name="file" pattern="^[А-Я][а-я]$" placeholder="Только русские буквы" name="field">
+                            <input type="text" name="file" pattern="/^[А-Я а-я]+$" placeholder="Только русские буквы" name="field">
                             <br> <i>Телефонный номер в формате</i>
                             <br> <i>+ХХХ-ХХ-ХХХХХХХ, где Х - любое число</i>
-                            <br> <input type="text" name="tel" pattern="[0-9]{0-9}">
+                            <br> <input type="text" name="tel" pattern="^\+?[\s\-\(\)0-9]{0-9}$">
                             <br> <input type="submit" value="Отправить" name="enter">
                         </fieldset>
                     </form>
