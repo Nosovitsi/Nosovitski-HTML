@@ -104,8 +104,8 @@
         <form action="http://fe.it-academy.by/TestForm.php" method="post">
             <fieldset>
                 <legend>Данные для входа и восстановления пароля</legend>
-                <input type="text" name="FIO" required placeholder="Логин" size="20" maxlength="5"> text: Только латиница, без пробелов, не менее 5 символов, длина поля 20, обязательное поле
-                <br> <input type="password" name="Parol" required placeholder="Пароль" size="20" maxlength="10" autocomplete="off"> text: Только латиница, без пробелов, не менее 10 символов, длина поля 20, обязательное поле,
+                <input type="text" name="FIO" required placeholder="Логин" size="20" maxlength="5" pattern="[A-Z][a-z]{5.}"> text: Только латиница, без пробелов, не менее 5 символов, длина поля 20, обязательное поле
+                <br> <input type="password" name="Parol" required placeholder="Пароль" size="20" maxlength="10" pattern="[A-Z][a-z]{5.}" autocomplete="off"> text: Только латиница, без пробелов, не менее 10 символов, длина поля 20, обязательное поле,
                 <br>отключить автозаполнение
             </fieldset>
         </form>
