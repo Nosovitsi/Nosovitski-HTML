@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Caveat';
+}
