@@ -11,63 +11,104 @@
     <title>Training</title>
 </head>
 
-<body style='cursor:url("cursor3.png"),auto'>
+<body>
+    <div class="main">
+        <h1 align="center" style="font-family: 'Amatic SC', sans-serif;">Заполните анкету</h1>
+    </div>
+
     <div class="content">
-        <div class="main">
-            <h1 align="center" style="font-family: 'Amatic SC', sans-serif;">Form</h1>
-        </div>
-
         <form action="http://fe.it-academy.by/TestForm.php" method="get">
-            "Ваше имя" <input type="text" name="FIO">
-            <br> <input type="password" name="Parol"> "Ваш пароль"
-            <br> "Запомнить меня" <input type="checkbox" name="status" checked>
-            <br><input type="submit" value="вход">
+            <fieldset>
+                <legend>Личные данные</legend>
+                <input type="text" name="surname" placeholder="Фамилия" size="25" pattern="([А-Я][а-я]{.25})" required autofocus> (text: Только кириллица, без пробелов, длина поля 25, обязательное поле, автофокус на данном поле)
+                <br> <input type="text" name="name" placeholder="Имя" size="20" pattern="{.20}" required> (text: Только кириллица, без пробелов, длина поля 25, обязательное поле)
+                <br> <input type="text" name="name2" placeholder="Отчество" size="24" pattern="{.24}" required> (text: Только кириллица, без пробелов, длина поля 24, обязательное поле)
+
+                <form action="http://fe.it-academy.by/TestForm.php" method="get">
+                    <fieldset>
+                        <legend>Паспортные данные</legend>
+                        text: Серия - только заглавные две буквы латинского алфавита с длиной 2 и максимальным количеством символов 2, количество букв не менее 2,
+                        <br> обязательное поле
+                        <br> text: Номер паспорта - только цифры с длиной 7 и максимальным количеством символов 7, количество цифр не менее 7, обязательное поле
+                        <br> <input type="text" name="name2" placeholder="AA" size="2" pattern="[A-Z]{.2}" required maxlength="2"> <input type="text" name="name2" placeholder="1234567" size="7" pattern="[0-9]{.7}" required maxlength="7">
+                    </fieldset>
+                </form>
+
+                <form action="http://fe.it-academy.by/TestForm.php" method="get">
+                    <fieldset>
+                        <legend>Дата рождения</legend>
+                        <input type="data" name="birth" placeholder="2000" size="4" pattern="([0-9]{4.4})"> (text: Год рождения, 4-е цифры)
+                        <br><select name="choice"> select: месяц рождения
+                            <option value="1">Январь</option>
+                            <option value="2">Февраль</option>
+                            <option value="3">Март</option>
+                            <option value="4">Апрель</option>
+                            <option value="5">Май</option>
+                            <option value="6">Июнь</option>
+                            <option value="7">Июль</option>
+                            <option value="8">Август</option>
+                            <option value="9">Сентябрь</option>
+                            <option value="10">Октябрь</option>
+                            <option value="11">Ноябрь</option>
+                            <option value="12">Декабрь</option>
+                        </select>
+                        <br><input type="number" min="1" max="31" step="1" placeholder="1"> number: Диапазон от 1 до 31 с шагом 1
+                    </fieldset>
+                </form>
+                <select name="choice"> (Национальность - выбор одного значения из списка, обязательное поле)
+                    <option value="1">РБ</option>
+                    <option value="2">РФ</option>
+                    <option value="3">Украина</option>
+                </select>
+                <br>Адрес:
+                <br><textarea name="forma" cols="18" rows="2">
+                </textarea>
+            </fieldset>
         </form>
 
-        <br>
-
-        <form action="http://fe.it-academy.by/TestForm.php" method="post">
-            <input type="text" name="FIO2">
-            <input type="submit" value="send" name="message">
-        </form>
-
-        <br>
-        <br>
 
         <fieldset>
-            <legend>Тест</legend>
-            "Введите данные" <input type="text" name="FIO3">
-            <input type="submit" value="send" name="message">
+            <legend>Интересы</legend>
+            <form action="http://fe.it-academy.by/TestForm.php" method="get">
+                <fieldset>
+                    <legend>array: Хобби</legend>
+                    <input type="radio" value="status1" name="status"> Рыбалка
+                    <br><input type="radio" value="status2" name="status"> Астрономия
+                    <br><input type="radio" value="status3" name="status"> Дайвинг
+                    <br><input type="radio" value="status4" name="status"> Марки
+                </fieldset>
+                <form action="http://fe.it-academy.by/TestForm.php" method="get">
+                    <fieldset>
+                        <legend>array: select multiple</legend>
+                        <select name="list[]" size="12" multiple>
+                        <optgroup label="Попугаи">
+                        <option value="1">Волнистый</option>
+                        <option value="2">Ара</option>
+                        <option value="3">Неразлучник</option>
+                    </optgroup>
+                    <optgroup label="Рыба">
+                        <option value="4">Караси</option>
+                        <option value="5">Окуни</option>
+                        <option value="6">Осетр</option>
+                    </optgroup>
+                    <optgroup label="Птицы">
+                        <option value="7">Стая ворон</option>
+                        <option value="8">Аист</option>
+                        <option value="9">Археоптерикс</option>
+                    </optgroup>
+                    </select>
+                    </fieldset>
+                </form>
         </fieldset>
 
-        <br>
-        <br>
-
-        <div class="container">
+        <form action="http://fe.it-academy.by/TestForm.php" method="post">
             <fieldset>
-                <label for="test">
-            your name
-            <p>ref</p>
-            <p>ref</p>
-            <p>ref</p>
-            <input type="text" name="Info" id="test">
-        </label>
-
-                <br><input type="submit" value="Отправить">
+                <legend>Данные для входа и восстановления пароля</legend>
+                <input type="text" name="FIO" required placeholder="Логин" size="20" maxlength="5"> text: Только латиница, без пробелов, не менее 5 символов, длина поля 20, обязательное поле
+                <br> <input type="password" name="Parol" required placeholder="Пароль" size="20" maxlength="10" autocomplete="off"> text: Только латиница, без пробелов, не менее 10 символов, длина поля 20, обязательное поле,
+                <br>отключить автозаполнение
             </fieldset>
-
-            <fieldset>
-                <label for="test">
-            your name
-            <p>ref</p>
-            <p>ref</p>
-            <p>ref</p>
-            <input type="text" name="Info" id="test">
-        </label>
-
-                <br><input type="submit" value="Отправить">
-            </fieldset>
-        </div>
+        </form>
     </div>
 </body>
 

@@ -107,7 +107,7 @@
                                 <option value="2">Минск</option>
                                 <option value="3">Витебск</option>
                             </select>
-                            <select name="choice" "list[]" size="8" multiple>
+                            <select name="list[]" size="8" multiple>
                                 <optgroup label="Города РБ">
                                 <option value="1">Брест</option>
                                 <option value="2">Минск</option>
@@ -143,13 +143,13 @@
                 <td valign="top"> <br><b>Валидация данных HTML5:</b>
                     <br>
                     <br>
-                    <form action="http://fe.it-academy.by/TestForm.php " method="post " enctype="multipart/form-data ">
+                    <form action="http://fe.it-academy.by/TestForm.php" method="post" enctype="multipart/form-data">
                         <fieldset>
                             <legend>Строка поиска</legend>
-                            <input type="text" name="file" pattern="/^[А-Я а-я]+$" placeholder="Только русские буквы" name="field">
+                            <input type="text" name="file" placeholder="Только русские буквы" required>
                             <br> <i>Телефонный номер в формате</i>
                             <br> <i>+ХХХ-ХХ-ХХХХХХХ, где Х - любое число</i>
-                            <br> <input type="number" name="tel" pattern="^\+?[\s\-\(\)0-9]{0-9}$" required>
+                            <br> <input type="tel" name="tel" pattern="^\+?[\s\-\(\)0-9]{0-9}$" required value="+XXX-XX-XXXXXXX">
                             <br> <input type="submit" value="Отправить" name="enter">
                         </fieldset>
                     </form>
