@@ -126,3 +126,9 @@ p {
     padding-right: 20px;
     padding-top: 30px;
 }
+
+.ss {
+    min-height: 30vh;
+    background-image: url("./Introduction-artwork-v3-1.jpg");
+    width: 100%;
+}
