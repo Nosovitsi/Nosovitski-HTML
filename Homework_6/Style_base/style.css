@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("./hHJ0XqeRZ70hzQtV.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.top img {
+    width: 200px;
+    margin-left: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.custodes img {
+    width: 250px;
+}
+
+p {
+    font-family: 'Caveat';
+    text-indent: 20px
+}
+
+sub {
+    font-size: 20px;
+}
+
+span {
+    font-size: larger;
+}
