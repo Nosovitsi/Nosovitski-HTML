@@ -4,16 +4,13 @@
     box-sizing: border-box;
 }
 
-
-/* Хедер */
-
 .container {
     padding-top: 0.1px;
 }
 
 .title {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50px;
     box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
@@ -27,35 +24,45 @@
 
 /*  Основа */
 
-main {
+.main {
     min-height: 100vh;
     margin: 0 auto;
     width: 100%;
-    background-image: url("./vCDUVn0jN5jmhKLS.jpg");
+    background-image: url("./Ultra.png");
     background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .top {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-top: 30px;
+    padding-left: 40px;
 }
 
 .center {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 0px;
-    padding-right: 10px;
+    justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50px;
     box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
+    width: 100%;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
+    width: 100%;
 }
 
 .left {
@@ -67,31 +74,55 @@ main {
 }
 
 .text {
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px 20px 10px;
+    font-size: 20px;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px 10px;
+    font-size: 20px;
+}
+
+.spacemarine {
+    display: flex;
+    justify-content: center;
 }
 
 .spacemarine img {
+    width: 300px;
+}
+
+.spacemarine1 img {
     width: 200px;
+}
+
+.spacemarine2 {
+    display: flex;
+    justify-content: center;
+}
+
+.spacemarine2 img {
+    width: 130px;
 }
 
 p {
     font-family: 'Caveat';
-    text-indent: 20px
+    text-indent: 20px;
 }
 
-sub {
-    font-size: 20px;
-}
-
-span {
-    font-size: larger;
-}
-
-.sm {
-    position: absolute;
-    padding-top: 1px;
-    padding-left: 50px;
-    width: 400px;
-    opacity: 0.3;
+.main2 {
+    min-height: 50vh;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("./vCDUVn0jN5jmhKLS.jpg");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
 }
