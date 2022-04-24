@@ -84,14 +84,6 @@
     width: 100%;
 }
 
-.left {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 20px;
-    text-decoration: underline;
-    padding-left: 10px;
-}
-
 .text {
     padding: 10px 20px 10px;
     font-size: 20px;
@@ -175,19 +167,18 @@ p {
     }
     .title {
         display: flex;
-        justify-content: space-around;
-        flex-direction: column;
+        justify-content: center;
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 50px;
         box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
         margin-top: 20px;
     }
     .title img {
-        width: 40px;
+        width: 30px;
     }
     /*  Основа */
     .main {
-        /* min-height: 100vh; */
+        min-height: 50vh;
         margin: 0 auto;
         width: 100%;
         background-image: url("./Ultra.png");
@@ -227,7 +218,7 @@ p {
     }
     .center3 {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column;
         background-color: rgba(106, 104, 104, 0.3);
         border-radius: 50px;
@@ -236,57 +227,55 @@ p {
     }
     .center4 {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column;
         background-color: rgba(106, 104, 104, 0.3);
         border-radius: 50px;
         box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
         width: 100%;
     }
-    .left {
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 20px;
-        text-decoration: underline;
-        padding-left: 10px;
-    }
     .text {
         padding: 10px 20px 10px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .text2 {
         display: flex;
         justify-content: center;
         flex-direction: column;
         padding: 10px 20px 10px;
-        font-size: 20px;
-    }
-    .spacemarine3 {
-        display: flex;
-        justify-content: center;
-    }
-    .spacemarine3 img {
-        width: 300px;
+        font-size: 18px;
     }
     .spacemarine img {
-        width: 300px;
+        width: 200px;
+    }
+    .spacemarine1 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5px;
     }
     .spacemarine1 img {
-        width: 200px;
+        width: 150px;
     }
     .spacemarine2 {
         display: flex;
         justify-content: center;
     }
     .spacemarine2 img {
-        width: 130px;
+        width: 100px;
+    }
+    .spacemarine3 {
+        display: flex;
+        justify-content: center;
+    }
+    .spacemarine3 img {
+        width: 200px;
     }
     p {
         font-family: 'Caveat';
-        text-indent: 20px;
+        text-indent: 18px;
     }
     .main2 {
-        /* min-height: 100vh; */
+        min-height: 100vh;
         margin: 0 auto;
         width: 100%;
         background-image: url("./introduction.jpg");
@@ -300,12 +289,13 @@ p {
         padding-top: 30px;
     }
     .ss {
-        /* min-height: 100vh; */
+        min-height: 100vh;
         background-image: url("./Introduction-artwork-v3-1.jpg");
         border: 3px black solid;
         box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
         width: 100%;
         padding-bottom: 200px;
+        display: none;
     }
     .tt {
         box-shadow: 0px 5px 10px 6px rgba(249, 249, 249, 0.5);
