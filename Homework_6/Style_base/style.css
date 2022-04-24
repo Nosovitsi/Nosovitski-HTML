@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+
+/* Хедер */
+
+.container {
+    padding-top: 0.1px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
+    margin-top: 20px;
+}
+
+.title img {
+    width: 40px;
+}
+
+
+/*  Основа */
+
 main {
     min-height: 100vh;
     margin: 0 auto;
@@ -28,7 +51,7 @@ main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0px;
-    padding-right: 50px;
+    padding-right: 10px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50px;
     box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
@@ -62,8 +85,4 @@ sub {
 
 span {
     font-size: larger;
-}
-
-.choice img {
-    width: 50px;
 }
