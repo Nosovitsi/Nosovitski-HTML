@@ -13,7 +13,7 @@
     justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50px;
-    box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
     margin-top: 20px;
 }
 
@@ -51,7 +51,7 @@
     justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50px;
-    box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
     width: 100%;
 }
 
@@ -61,7 +61,26 @@
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.center3 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    background-color: rgba(106, 104, 104, 0.3);
+    border-radius: 50px;
     box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
+    width: 100%;
+}
+
+.center4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(106, 104, 104, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
     width: 100%;
 }
 
@@ -86,9 +105,13 @@
     font-size: 20px;
 }
 
-.spacemarine {
+.spacemarine3 {
     display: flex;
     justify-content: center;
+}
+
+.spacemarine3 img {
+    width: 300px;
 }
 
 .spacemarine img {
@@ -114,21 +137,176 @@ p {
 }
 
 .main2 {
-    min-height: 50vh;
+    min-height: 100vh;
     margin: 0 auto;
     width: 100%;
-    background-image: url("./vCDUVn0jN5jmhKLS.jpg");
+    background-image: url("./introduction.jpg");
     background-position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: 0px 5px 10px 6px rgba(227, 235, 242, 0.8);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
 }
 
 .ss {
-    min-height: 30vh;
+    min-height: 100vh;
     background-image: url("./Introduction-artwork-v3-1.jpg");
+    border: 3px black solid;
+    box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
     width: 100%;
+    padding-bottom: 200px;
+}
+
+.tt {
+    box-shadow: 0px 5px 10px 6px rgba(249, 249, 249, 0.5);
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        padding-top: 0.1px;
+    }
+    .title {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 50px;
+        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+        margin-top: 20px;
+    }
+    .title img {
+        width: 40px;
+    }
+    /*  Основа */
+    .main {
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("./Ultra.png");
+        background-position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .top {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 50px;
+        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+        width: 100%;
+    }
+    .center2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 50px;
+        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+        width: 100%;
+    }
+    .center3 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: rgba(106, 104, 104, 0.3);
+        border-radius: 50px;
+        box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
+        width: 100%;
+    }
+    .center4 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: rgba(106, 104, 104, 0.3);
+        border-radius: 50px;
+        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+        width: 100%;
+    }
+    .left {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20px;
+        text-decoration: underline;
+        padding-left: 10px;
+    }
+    .text {
+        padding: 10px 20px 10px;
+        font-size: 20px;
+    }
+    .text2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 20px 10px;
+        font-size: 20px;
+    }
+    .spacemarine3 {
+        display: flex;
+        justify-content: center;
+    }
+    .spacemarine3 img {
+        width: 300px;
+    }
+    .spacemarine img {
+        width: 300px;
+    }
+    .spacemarine1 img {
+        width: 200px;
+    }
+    .spacemarine2 {
+        display: flex;
+        justify-content: center;
+    }
+    .spacemarine2 img {
+        width: 130px;
+    }
+    p {
+        font-family: 'Caveat';
+        text-indent: 20px;
+    }
+    .main2 {
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("./introduction.jpg");
+        background-position: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        box-shadow: 0px 5px 10px 6px rgba(227, 235, 242, 0.8);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+    .ss {
+        min-height: 100vh;
+        background-image: url("./Introduction-artwork-v3-1.jpg");
+        border: 3px black solid;
+        box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+        width: 100%;
+        padding-bottom: 200px;
+    }
+    .tt {
+        box-shadow: 0px 5px 10px 6px rgba(249, 249, 249, 0.5);
+    }
 }
