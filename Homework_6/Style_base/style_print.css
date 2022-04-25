@@ -43,6 +43,7 @@
     padding-right: 30px;
     padding-top: 30px;
     padding-left: 40px;
+    color: brown;
 }
 
 .center {
@@ -105,6 +106,17 @@
     flex-direction: column;
     padding: 10px 20px 10px;
     font-size: 20px;
+}
+
+.text3 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px 20px 10px;
+    font-size: 22px;
+    width: 60%;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px rgb(30, 30, 30);
 }
 
 .spacemarine img {
