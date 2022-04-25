@@ -78,6 +78,17 @@
 .center4 {
     display: flex;
     justify-content: space-between;
+    /* flex-direction: column; */
+    background-color: rgba(106, 104, 104, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.center5 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
     background-color: rgba(106, 104, 104, 0.3);
     border-radius: 50px;
     box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
@@ -97,15 +108,6 @@
     font-size: 20px;
 }
 
-.spacemarine3 {
-    display: flex;
-    justify-content: center;
-}
-
-.spacemarine3 img {
-    width: 300px;
-}
-
 .spacemarine img {
     width: 300px;
 }
@@ -121,6 +123,24 @@
 
 .spacemarine2 img {
     width: 130px;
+}
+
+.spacemarine4 {
+    display: flex;
+    justify-content: center;
+}
+
+.spacemarine4 img {
+    width: 300px;
+}
+
+.spacemarine5 {
+    display: flex;
+    justify-content: center;
+}
+
+.spacemarine5 img {
+    width: 300px;
 }
 
 p {
@@ -256,16 +276,8 @@ p {
     .spacemarine1 img {
         width: 150px;
     }
-    .spacemarine2 {
-        display: flex;
-        justify-content: center;
-    }
     .spacemarine2 img {
         width: 100px;
-    }
-    .spacemarine3 {
-        display: flex;
-        justify-content: center;
     }
     .spacemarine3 img {
         width: 200px;
@@ -297,7 +309,7 @@ p {
         padding-bottom: 200px;
         display: none;
     }
-    .tt {
+    .line {
         box-shadow: 0px 5px 10px 6px rgba(249, 249, 249, 0.5);
     }
 }
