@@ -176,7 +176,8 @@ p {
     box-shadow: 0px 5px 10px 6px rgba(249, 249, 249, 0.5);
 }
 
-@media screen and (max-width: 500px) {
+
+/* @media screen and (max-width: 500px) {
     * {
         padding: 0;
         margin: 0;
@@ -197,119 +198,139 @@ p {
         width: 25px;
     }
     /*  Основа */
-    .main {
-        min-height: 50vh;
-        margin: 0 auto;
-        width: 500px;
-        background-image: url("./Ultra.png");
-        background-position: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .top {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        width: 100%;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-left: 40px;
-    }
-    .center {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.3);
-        border-radius: 50px;
-        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
-        width: 100%;
-    }
-    .center2 {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.3);
-        border-radius: 50px;
-        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
-        width: 100%;
-    }
-    .center3 {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        background-color: rgba(106, 104, 104, 0.3);
-        border-radius: 50px;
-        box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
-        width: 100%;
-    }
-    .center4 {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        background-color: rgba(106, 104, 104, 0.3);
-        border-radius: 50px;
-        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
-        width: 100%;
-    }
-    .text {
-        padding: 10px 20px 10px;
-        font-size: 18px;
-    }
-    .text2 {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 10px 20px 10px;
-        font-size: 18px;
-    }
-    .spacemarine img {
-        width: 200px;
-    }
-    .spacemarine1 {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 5px;
-    }
-    .spacemarine1 img {
-        width: 150px;
-    }
-    .spacemarine2 img {
-        width: 100px;
-    }
-    .spacemarine3 img {
-        width: 200px;
-    }
-    p {
-        font-family: 'Caveat';
-        text-indent: 18px;
-    }
-    .main2 {
-        min-height: 100vh;
-        margin: 0 auto;
-        width: 500px;
-        background-image: url("./introduction.jpg");
-        background-position: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        box-shadow: 0px 5px 10px 6px rgba(227, 235, 242, 0.8);
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 30px;
-    }
-    .ss {
-        min-height: 100vh;
-        background-image: url("./Introduction-artwork-v3-1.jpg");
-        border: 3px black solid;
-        box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
-        width: 100%;
-        padding-bottom: 200px;
-        display: none;
-    }
-    .line {
-        box-shadow: 0px 5px 10px 6px rgba(249, 249, 249, 0.5);
-    }
+
+
+/* .main {
+    min-height: 50vh;
+    margin: 0 auto;
+    width: 500px;
+    background-image: url("./Ultra.png");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.center2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.center3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(106, 104, 104, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(63, 92, 114, 0.3);
+    width: 100%;
+}
+
+.center4 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(106, 104, 104, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.text {
+    padding: 10px 20px 10px;
+    font-size: 18px;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px 10px;
+    font-size: 18px;
+}
+
+.spacemarine img {
+    width: 200px;
+}
+
+.spacemarine1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.spacemarine1 img {
+    width: 150px;
+}
+
+.spacemarine2 img {
+    width: 100px;
+}
+
+.spacemarine3 img {
+    width: 200px;
+}
+
+p {
+    font-family: 'Caveat';
+    text-indent: 18px;
+}
+
+.main2 {
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 500px;
+    background-image: url("./introduction.jpg");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 10px 6px rgba(227, 235, 242, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.ss {
+    min-height: 100vh;
+    background-image: url("./Introduction-artwork-v3-1.jpg");
+    border: 3px black solid;
+    box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding-bottom: 200px;
+    display: none;
+}
+
+.line {
+    box-shadow: 0px 5px 10px 6px rgba(249, 249, 249, 0.5);
+}
+
+
+} */
