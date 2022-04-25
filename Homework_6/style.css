@@ -14,10 +14,11 @@ main {
     text-decoration: underline;
 }
 
-p {
+
+/* p {
     font-family: 'Caveat';
     text-indent: 20px
-}
+} */
 
 sub {
     font-size: 20px;
@@ -29,4 +30,9 @@ span {
 
 sup {
     font-size: 35px;
+}
+
+.text {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 20px;
 }
