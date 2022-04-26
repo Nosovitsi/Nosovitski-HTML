@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 0.1px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    margin-top: 20px;
+}
+
+.title img {
+    width: 40px;
+}
+
+
+/*  Основа */
+
+.main {
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("./Ultra.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.center2 {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* background-color: rgba(255, 255, 255, 0.3);
+     border-radius: 50px; 
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3); */
+    width: 100%;
+}
+
+.center3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.center4 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.center5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    width: 100%;
+}
+
+.text {
+    padding: 10px 20px 10px;
+    font-size: 20px;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px 10px;
+    font-size: 20px;
+    width: 70%;
+}
+
+.text3 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px 20px 10px;
+    font-size: 23px;
+    width: 60%;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 3px 5px rgba(192, 89, 89, 0.883);
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.6);
+    width: 100%;
+    height: 79vh;
+}
+
+.spacemarine img {
+    width: 300px;
+}
+
+.spacemarine1 img {
+    width: 200px;
+}
+
+.spacemarine2 {
+    display: flex;
+    justify-content: center;
+}
+
+.spacemarine2 img {
+    width: 150px;
+}
+
+.spacemarine4 img {
+    width: 135px;
+}
+
+.spacemarine5 img {
+    width: 350px;
+}
+
+p {
+    font-family: 'Mason Chronicles';
+    text-indent: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: 'Mason Chronicles';
+}
+
+.main2 {
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("./introduction.jpg");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 10px 8px rgba(52, 52, 53, 0.842);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.line {
+    min-height: 100vh;
+    background-image: url("./Introduction-artwork-v3-1.jpg");
+    border: 3px black solid;
+    box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.line2 {
+    height: 80vh;
+    background-image: url("./Abbadon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 3px black solid;
+    box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.death {
+    display: flex;
+    justify-content: center;
+}
+
+.death video {
+    min-height: 20vh;
+    border: 3px black solid;
+    box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+.main3 {
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("./death.gif");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 10px 8px rgba(102, 103, 104, 0.7);
+}
+
+.dop {
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
