@@ -545,17 +545,20 @@ p {
         justify-content: center;
         flex-direction: row;
         width: 100%;
+        border: 1px red solid;
     }
     .Boss img {
         width: 250px;
     }
     .last_word {
         flex-direction: column;
+        width: max-content;
     }
     .Game {
         display: flex;
         justify-content: center;
         width: 100%;
+        border: 1px red solid;
     }
     .Game img {
         width: 300px;
@@ -572,7 +575,7 @@ p {
 @media screen and (max-width: 450px) {
     /*  Глава I  */
     .main {
-        min-height: 50vh;
+        min-height: 100vh;
         margin: 0 auto;
         width: 100%;
         background-image: url("./introduction.jpg");
@@ -587,7 +590,7 @@ p {
     }
     /*  Глава II  */
     .main2 {
-        min-height: 50vh;
+        min-height: 100vh;
         margin: 0 auto;
         width: 100%;
         background-image: url("./introduction.jpg");
@@ -598,23 +601,23 @@ p {
         padding-right: 2px;
     }
     .Chaplain img {
-        width: 150px;
+        width: 100%;
     }
     .Techmarine img {
-        width: 150px;
+        width: 100%;
     }
     /*  Глава III  */
     .main3 {
-        height: 40vh;
+        height: 50vh;
         margin: 0 auto;
         background-image: url("./Death_2.gif");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .Boss img {
-        width: 200px;
+        width: 100%;
     }
     .Game img {
-        width: 120px;
+        width: 100%;
     }
 }
