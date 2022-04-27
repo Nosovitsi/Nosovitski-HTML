@@ -19,7 +19,7 @@ p {
 }
 
 
-/*  Глава I --------------------------------------------------------------- */
+/* Глава I --------------------------------------------------------------- */
 
 .main {
     min-height: 100vh;
@@ -144,7 +144,7 @@ p {
 /*  Раздел --------------------------------------------------------------- */
 
 
-/*  Глава II --------------------------------------------------------------- */
+/* Глава II --------------------------------------------------------------- */
 
 .main2 {
     min-height: 100vh;
@@ -232,7 +232,8 @@ p {
 /*  Раздел --------------------------------------------------------------- */
 
 
-/*  Глава III --------------------------------------------------------------- */
+/* Глава III ---------------------------------------------------------------
+*/
 
 .main3 {
     min-height: 80vh;
@@ -295,3 +296,317 @@ p {
 
 
 /* 1100 */
+
+@media screen and (max-width: 1100px) {
+    p {
+        font-family: 'Mason Chronicles';
+        text-indent: 15px;
+    }
+    .death {
+        min-height: 60vh;
+    }
+    /* Глава I */
+    .Cosmo {
+        display: none;
+    }
+    .text {
+        padding: 2px 15px 2px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .Captain img {
+        width: 200px;
+    }
+    .Templar {
+        width: 25%;
+    }
+    .Templar img {
+        width: 145px;
+    }
+    .text_big {
+        padding: 2px 15px 2px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .word {
+        font-size: 20px;
+    }
+    .Icon {
+        display: flex;
+        justify-content: center;
+    }
+    .Icon img {
+        width: 100px;
+    }
+    .screen {
+        min-height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* Глава II */
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        width: 130px;
+    }
+    .Chaplain {
+        width: 25%;
+    }
+    .Chaplain img {
+        width: 200px;
+    }
+    .Techmarine {
+        width: 30%;
+    }
+    .Techmarine img {
+        width: 200px;
+    }
+    /*  Раздел --------------------------------------------------------------- */
+    .screen_2 {
+        min-height: 50vh;
+        background-attachment: local;
+        background-position: center center;
+    }
+    /*  Раздел --------------------------------------------------------------- */
+    /* Глава III */
+    .main3 {
+        min-height: 80vh;
+    }
+    .Army img {
+        width: 400px;
+    }
+    .Boss img {
+        width: 300px;
+    }
+}
+
+
+/* 800 */
+
+@media screen and (max-width: 800px) {
+    p {
+        font-family: 'Mason Chronicles';
+        text-indent: 10px;
+    }
+    .death {}
+    /* Глава I */
+    .main {
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("./introduction.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .Cosmo {
+        display: none;
+    }
+    .title {
+        width: 100%;
+    }
+    .title img {
+        width: 40px;
+    }
+    .between {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .Captain {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .Captain img {
+        width: 200px;
+    }
+    .text {
+        padding: 1px 10px 1px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .around_cover {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 40px;
+        box-shadow: 0px 5px 10px 5px rgba(29, 29, 29, 0.8);
+        padding: 3px;
+        width: 100%;
+    }
+    .Templar {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .Templar img {
+        width: 145px;
+    }
+    .comment {
+        font-size: 17px;
+    }
+    .text_big {
+        padding: 1px 10px 1px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .word {
+        display: flex;
+        justify-content: center;
+    }
+    .Icon img {
+        width: 80px;
+    }
+    .screen {
+        min-height: 40vh;
+        background-attachment: local;
+        background-position: center center;
+    }
+    /* Глава II */
+    .main2 {
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("./introduction.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        width: 110px;
+    }
+    .between_cover {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 40px;
+        box-shadow: 0px 5px 10px 5px rgba(29, 29, 29, 0.8);
+        padding: 3px;
+        width: 100%;
+    }
+    .Chaplain {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .Chaplain img {
+        width: 200px;
+    }
+    .Techmarine {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .Techmarine img {
+        width: 200px;
+    }
+    .screen_2 {
+        min-height: 40vh;
+        background-attachment: local;
+        background-position: center center;
+    }
+    /* Глава III */
+    .main3 {
+        min-height: 40vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("./Death_2.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .dop {
+        min-height: 50vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.8);
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+    }
+    .Army img {
+        width: 300px;
+    }
+    .Boss {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .Boss img {
+        width: 250px;
+    }
+    .last_word {
+        flex-direction: column;
+        width: 100%;
+    }
+    .Game {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .Game img {
+        width: 300px;
+    }
+    .text_small {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    /* Глава I */
+    .main {
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("./introduction.jpg");
+        background-size: cover;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    /* Глава II */
+    .main2 {
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("./introduction.jpg");
+        background-size: cover;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    /* Глава III */
+    .main3 {
+        height: 50vh;
+        margin: 0 auto;
+        background-image: url("./Death_2.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
