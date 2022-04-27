@@ -583,7 +583,7 @@ p {
         padding-right: 2px;
     }
     .Captain img {
-        width: 150px;
+        width: 130px;
     }
     /*  Глава II  */
     .main2 {
@@ -591,28 +591,30 @@ p {
         margin: 0 auto;
         width: 100%;
         background-image: url("./introduction.jpg");
-        background-size: auto;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
         padding-left: 2px;
         padding-right: 2px;
     }
     .Chaplain img {
-        width: 140px;
+        width: 120px;
     }
     .Techmarine img {
-        width: 140px;
+        width: 120px;
     }
     /*  Глава III  */
     .main3 {
-        min-height: 40vh;
+        height: 40vh;
         margin: 0 auto;
-        width: 100%;
         background-image: url("./Death_2.gif");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
-    .Game {
-        display: none;
+    .Boss img {
+        width: 150px;
+    }
+    .Game img {
+        width: 120px;
     }
 }
