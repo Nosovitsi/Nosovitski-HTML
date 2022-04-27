@@ -556,7 +556,7 @@ p {
         width: 100%;
     }
     .Game img {
-        width: 350px;
+        width: 300px;
     }
     .text_small {
         display: flex;
@@ -572,7 +572,7 @@ p {
     .main {
         min-height: 50vh;
         margin: 0 auto;
-        width: auto;
+        width: 100%;
         background-image: url("./introduction.jpg");
         background-size: auto;
         background-repeat: no-repeat;
@@ -587,7 +587,7 @@ p {
     .main2 {
         min-height: 50vh;
         margin: 0 auto;
-        width: auto;
+        width: 100%;
         background-image: url("./introduction.jpg");
         background-size: auto;
         background-repeat: no-repeat;
@@ -605,9 +605,12 @@ p {
     .main3 {
         min-height: 40vh;
         margin: 0 auto;
-        width: auto;
+        width: 100%;
         background-image: url("./Death_2.gif");
-        background-size: auto;
+        background-size: contain;
         background-repeat: no-repeat;
+    }
+    .Game {
+        display: none;
     }
 }
