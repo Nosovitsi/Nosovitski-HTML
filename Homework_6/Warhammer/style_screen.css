@@ -230,7 +230,7 @@ p {
     min-height: 80vh;
     margin: 0 auto;
     width: 100%;
-    background-image: url("./death.gif");
+    background-image: url("./Trailer.mp4");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -375,9 +375,9 @@ p {
     }
     /*  Глава I  */
     .main {
-        min-height: 100vh;
+        /* min-height: 100vh; */
         margin: 0 auto;
-        width: 100%;
+        /* width: 100%; */
         background-image: url("./introduction.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -455,7 +455,7 @@ p {
     }
     /*  Глава II  */
     .main2 {
-        min-height: 100vh;
+        /* min-height: 100vh; */
         margin: 0 auto;
         width: 100%;
         background-image: url("./introduction.jpg");
