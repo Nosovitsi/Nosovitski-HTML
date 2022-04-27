@@ -380,6 +380,9 @@ p {
         font-family: 'Mason Chronicles';
         text-indent: 10px;
     }
+    .death video {
+        display: none;
+    }
     /*  Глава I  */
     .main {
         min-height: 100vh;
