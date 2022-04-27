@@ -4,25 +4,8 @@
     box-sizing: border-box;
 }
 
-.container {
-    padding-top: 0.1px;
-}
 
-.title {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 50px;
-    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
-    margin-top: 20px;
-}
-
-.title img {
-    width: 40px;
-}
-
-
-/*  Основа */
+/*  Глава I  */
 
 .main {
     min-height: 100vh;
@@ -36,23 +19,103 @@
     padding-right: 30px;
 }
 
-.top {
+.center10 {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-left: 40px;
+    justify-content: center;
 }
 
-.center {
+.container {
+    padding-top: 0.1px;
+}
+
+.title {
     display: flex;
     justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50px;
-    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+    box-shadow: 0px 5px 10px 8px rgba(29, 37, 44, 0.55);
+    margin-top: 20px;
+    width: 90%;
+    font-size: 19px;
+}
+
+.title img {
+    width: 50px;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.Captain {
+    width: 20%;
+}
+
+.Captain img {
+    width: 260px;
+}
+
+.text {
+    padding: 10px 20px 10px;
+    font-size: 18px;
+    width: 80%;
+}
+
+.around_cover {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px 8px rgba(29, 37, 44, 0.55);
+    padding: 3px;
     width: 100%;
 }
+
+.Templar {
+    width: 20%;
+}
+
+.Templar img {
+    width: 195px;
+}
+
+.comment {
+    font-size: 20px;
+}
+
+.text_big {
+    padding: 10px 20px 10px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.Icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Icon img {
+    width: 120px;
+}
+
+.screen {
+    min-height: 100vh;
+    margin: 0 auto;
+    background-image: url("./Introduction-artwork-v3-1.jpg");
+    border: 5px black solid;
+    box-shadow: 0px 5px 10px 8px rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+/*  Глава II  */
+
+
+/*  Основа */
 
 .center2 {
     display: flex;
@@ -93,11 +156,6 @@
     width: 100%;
 }
 
-.text {
-    padding: 10px 20px 10px;
-    font-size: 20px;
-}
-
 .text2 {
     display: flex;
     justify-content: center;
@@ -125,10 +183,6 @@
     height: 79vh;
 }
 
-.spacemarine img {
-    width: 300px;
-}
-
 .spacemarine1 img {
     width: 200px;
 }
@@ -139,7 +193,7 @@
 }
 
 .spacemarine2 img {
-    width: 150px;
+    width: 200px;
 }
 
 .spacemarine4 img {
@@ -169,7 +223,7 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    box-shadow: 0px 5px 10px 8px rgba(52, 52, 53, 0.842);
+    box-shadow: 0px 5px 10px 14px rgba(29, 29, 29, 0.8);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
@@ -234,4 +288,123 @@ h3 {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
+}
+
+
+/* 1100 */
+
+@media screen and (max-width: 1100px) {
+    .Cosmo {
+        display: none;
+    }
+    .text {
+        padding: 2px 15px 2px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .Captain img {
+        width: 200px;
+    }
+    .Templar img {
+        width: 145px;
+    }
+    .text_big {
+        padding: 2px 15px 2px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .Icon {
+        display: flex;
+        justify-content: center;
+    }
+    .Icon img {
+        width: 100px;
+    }
+    .screen {
+        min-height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+/* 800 */
+
+@media screen and (max-width: 800px) {
+    .main {
+        min-height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+        background-image: url("./Ultra.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .Cosmo {
+        display: none;
+    }
+    .title {
+        width: 100%;
+    }
+    .title img {
+        width: 40px;
+    }
+    .between {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .Captain {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .Captain img {
+        width: 200px;
+    }
+    .text {
+        padding: 1px 10px 1px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .around_cover {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 40px;
+        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+        padding: 3px;
+        width: 100%;
+    }
+    .Templar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .Templar img {
+        width: 145px;
+    }
+    .comment {
+        font-size: 18px;
+    }
+    .text_big {
+        padding: 1px 10px 1px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .Icon {
+        display: flex;
+        justify-content: center;
+    }
+    .Icon img {
+        width: 80px;
+    }
+    .screen {
+        min-height: 40vh;
+    }
 }
