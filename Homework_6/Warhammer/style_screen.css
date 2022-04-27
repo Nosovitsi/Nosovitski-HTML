@@ -583,7 +583,7 @@ p {
         padding-right: 2px;
     }
     .Captain img {
-        width: 130px;
+        width: 160px;
     }
     /*  Глава II  */
     .main2 {
@@ -598,10 +598,10 @@ p {
         padding-right: 2px;
     }
     .Chaplain img {
-        width: 120px;
+        width: 150px;
     }
     .Techmarine img {
-        width: 120px;
+        width: 150px;
     }
     /*  Глава III  */
     .main3 {
@@ -612,7 +612,7 @@ p {
         background-repeat: no-repeat;
     }
     .Boss img {
-        width: 150px;
+        width: 200px;
     }
     .Game img {
         width: 120px;
