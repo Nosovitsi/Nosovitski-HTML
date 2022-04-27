@@ -219,7 +219,6 @@ p {
 .screen_2 {
     height: 60vh;
     background-image: url("./Abbadon.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -302,6 +301,9 @@ p {
         font-family: 'Mason Chronicles';
         text-indent: 15px;
     }
+    .death {
+        min-height: 60vh;
+    }
     /*  Глава I  */
     .Cosmo {
         display: none;
@@ -360,12 +362,17 @@ p {
     .Techmarine img {
         width: 200px;
     }
+    /*  Раздел --------------------------------------------------------------- */
     .screen_2 {
         min-height: 50vh;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-attachment: local;
+        background-position: center center;
     }
-    /*  Глава II  */
+    /*  Раздел --------------------------------------------------------------- */
+    /*  Глава III  */
+    .main3 {
+        min-height: 80vh;
+    }
     .Army img {
         width: 400px;
     }
@@ -382,9 +389,7 @@ p {
         font-family: 'Mason Chronicles';
         text-indent: 10px;
     }
-    .death video {
-        display: none;
-    }
+    .death {}
     /*  Глава I  */
     .main {
         min-height: 100vh;
@@ -446,7 +451,7 @@ p {
         width: 145px;
     }
     .comment {
-        font-size: 18px;
+        font-size: 17px;
     }
     .text_big {
         padding: 1px 10px 1px;
@@ -519,7 +524,7 @@ p {
     }
     /*  Глава III  */
     .main3 {
-        min-height: 50vh;
+        min-height: 40vh;
         margin: 0 auto;
         width: 100%;
         background-image: url("./Death_2.gif");
@@ -545,20 +550,18 @@ p {
         justify-content: center;
         flex-direction: row;
         width: 100%;
-        border: 1px red solid;
     }
     .Boss img {
         width: 250px;
     }
     .last_word {
         flex-direction: column;
-        width: max-content;
+        width: 100%;
     }
     .Game {
         display: flex;
         justify-content: center;
         width: 100%;
-        border: 1px red solid;
     }
     .Game img {
         width: 300px;
@@ -580,13 +583,10 @@ p {
         width: 100%;
         background-image: url("./introduction.jpg");
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-attachment: fixed;
         padding-left: 2px;
         padding-right: 2px;
-    }
-    .Captain img {
-        width: 160px;
     }
     /*  Глава II  */
     .main2 {
@@ -595,16 +595,10 @@ p {
         width: 100%;
         background-image: url("./introduction.jpg");
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-attachment: fixed;
         padding-left: 2px;
         padding-right: 2px;
-    }
-    .Chaplain img {
-        width: 100%;
-    }
-    .Techmarine img {
-        width: 100%;
     }
     /*  Глава III  */
     .main3 {
@@ -613,11 +607,5 @@ p {
         background-image: url("./Death_2.gif");
         background-size: cover;
         background-repeat: no-repeat;
-    }
-    .Boss img {
-        width: 100%;
-    }
-    .Game img {
-        width: 100%;
     }
 }
