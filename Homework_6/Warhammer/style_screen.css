@@ -282,6 +282,7 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-size: 18px;
 }
 
 
