@@ -9,6 +9,13 @@ p {
     text-indent: 20px;
 }
 
+.death video {
+    min-height: 20vh;
+    border: 3px black solid;
+    box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
 
 /*  Глава I --------------------------------------------------------------- */
 
@@ -230,7 +237,7 @@ p {
     min-height: 80vh;
     margin: 0 auto;
     width: 100%;
-    background-image: url("./Trailer.mp4");
+    background-image: url("./Death_2.gif");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -375,9 +382,9 @@ p {
     }
     /*  Глава I  */
     .main {
-        /* min-height: 100vh; */
+        min-height: 100vh;
         margin: 0 auto;
-        /* width: 100%; */
+        width: 100%;
         background-image: url("./introduction.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -455,7 +462,7 @@ p {
     }
     /*  Глава II  */
     .main2 {
-        /* min-height: 100vh; */
+        min-height: 100vh;
         margin: 0 auto;
         width: 100%;
         background-image: url("./introduction.jpg");
@@ -510,10 +517,9 @@ p {
         min-height: 50vh;
         margin: 0 auto;
         width: 100%;
-        background-image: url("./death.gif");
+        background-image: url("./Death_2.gif");
         background-size: cover;
         background-repeat: no-repeat;
-        padding-left: 0.1px;
     }
     .dop {
         min-height: 50vh;
@@ -558,4 +564,47 @@ p {
     }
 }
 
-@media screen and (max-width: 450px) {}
+@media screen and (max-width: 450px) {
+    /*  Глава I  */
+    .main {
+        min-height: 50vh;
+        margin: 0 auto;
+        width: auto;
+        background-image: url("./introduction.jpg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .Captain img {
+        width: 150px;
+    }
+    /*  Глава II  */
+    .main2 {
+        min-height: 50vh;
+        margin: 0 auto;
+        width: auto;
+        background-image: url("./introduction.jpg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .Chaplain img {
+        width: 140px;
+    }
+    .Techmarine img {
+        width: 140px;
+    }
+    /*  Глава III  */
+    .main3 {
+        min-height: 40vh;
+        margin: 0 auto;
+        width: auto;
+        background-image: url("./Death_2.gif");
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
