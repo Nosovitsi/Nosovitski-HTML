@@ -583,9 +583,9 @@ p {
         margin: 0 auto;
         width: 100%;
         background-image: url("./short.jpg");
-        background-size: cover;
+        background-size: contain;
         background-repeat: repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         padding-left: 2px;
         padding-right: 2px;
     }
@@ -595,9 +595,9 @@ p {
         margin: 0 auto;
         width: 100%;
         background-image: url("./short.jpg");
-        background-size: cover;
+        background-size: contain;
         background-repeat: repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         padding-left: 2px;
         padding-right: 2px;
     }
