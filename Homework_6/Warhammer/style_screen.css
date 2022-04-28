@@ -524,7 +524,7 @@ p {
         min-height: 40vh;
         background-attachment: local;
         background-position: center center;
-        border: 5px solid;
+        border: 15px solid;
         border-image: url(./ramka.png) 25 round;
     }
     /* Глава III */
