@@ -472,6 +472,8 @@ p {
         min-height: 40vh;
         background-attachment: local;
         background-position: center center;
+        border: 5px solid;
+        border-image: url(./ramka.png) 40 round;
     }
     /* Глава II */
     .main2 {
