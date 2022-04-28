@@ -390,7 +390,7 @@ p {
         font-family: 'Mason Chronicles';
         text-indent: 10px;
     }
-    .death {}
+    /* .death {} */
     /* Глава I */
     .main {
         min-height: 100vh;
@@ -582,7 +582,7 @@ p {
         min-height: 100vh;
         margin: 0 auto;
         width: 100%;
-        background-image: url("./introduction.jpg");
+        background-image: url("./short.jpg");
         background-size: cover;
         background-repeat: repeat;
         background-attachment: fixed;
@@ -594,7 +594,7 @@ p {
         min-height: 100vh;
         margin: 0 auto;
         width: 100%;
-        background-image: url("./introduction.jpg");
+        background-image: url("./short.jpg");
         background-size: cover;
         background-repeat: repeat;
         background-attachment: fixed;
