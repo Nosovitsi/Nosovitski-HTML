@@ -629,6 +629,7 @@ p {
     }
     .screen_3 {
         min-height: 80vh;
+        border-image: url(./ramka.png) 35 round;
     }
 }
 
