@@ -422,6 +422,13 @@ p {
     .Boss img {
         width: 300px;
     }
+    /*  Раздел --------------------------------------------------------------- */
+    .screen_3 {
+        min-height: 100vh;
+        background-attachment: local;
+        background-position: center center;
+    }
+    /*  Раздел --------------------------------------------------------------- */
 }
 
 
@@ -621,6 +628,13 @@ p {
         width: 100%;
         padding-left: 35%;
         padding-right: 35%;
+    }
+    .screen_3 {
+        min-height: 80vh;
+        background-attachment: local;
+        background-position: center center;
+        border: 10px solid;
+        border-image: url(./ramka.png) 35 repeat;
     }
 }
 
