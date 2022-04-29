@@ -16,6 +16,33 @@
             box-sizing: border-box;
         }
         
+        p {
+            font-family: 'Mason Chronicles';
+            text-indent: 20px;
+        }
+        
+        .death {
+            min-height: 80vh;
+            margin: 0 auto;
+            width: 100%;
+            background-image: url("./Death_2.gif");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        /* Глава I --------------------------------------------------------------- */
+        
+        .main {
+            min-height: 100vh;
+            margin: 0 auto;
+            width: 100%;
+            background-image: url("./introduction.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        
         .container {
             padding-top: 0.1px;
         }
@@ -25,150 +52,103 @@
             justify-content: space-around;
             background-color: rgba(255, 255, 255, 0.3);
             border-radius: 50px;
-            box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
+            box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
             margin-top: 20px;
+            width: 100%;
+            font-size: 19px;
         }
         
         .title img {
-            width: 40px;
-        }
-        /*  Основа */
-        
-        .main {
-            min-height: 100vh;
-            margin: 0 auto;
-            width: 100%;
-            background-image: url("./Ultra.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            padding-left: 30px;
-            padding-right: 30px;
+            width: 50px;
         }
         
-        .top {
+        .between {
             display: flex;
             justify-content: space-between;
             width: 100%;
-            padding-right: 30px;
             padding-top: 30px;
-            padding-left: 40px;
         }
         
-        .center {
-            display: flex;
-            justify-content: space-around;
-            background-color: rgba(255, 255, 255, 0.3);
-            border-radius: 50px;
-            box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
-            width: 100%;
+        .Captain {
+            width: 20%;
         }
         
-        .center2 {
-            display: flex;
-            justify-content: center;
-            /* flex-direction: column; */
-            /* background-color: rgba(255, 255, 255, 0.3);
-     border-radius: 50px; 
-    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3); */
-            width: 100%;
-        }
-        
-        .center3 {
-            display: flex;
-            justify-content: space-around;
-            flex-direction: column;
-            background-color: rgba(255, 255, 255, 0.3);
-            border-radius: 50px;
-            box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
-            width: 100%;
-        }
-        
-        .center4 {
-            display: flex;
-            justify-content: space-between;
-            /* flex-direction: column; */
-            background-color: rgba(255, 255, 255, 0.3);
-            border-radius: 50px;
-            box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
-            width: 100%;
-        }
-        
-        .center5 {
-            display: flex;
-            justify-content: space-between;
-            background-color: rgba(255, 255, 255, 0.3);
-            border-radius: 50px;
-            box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.3);
-            width: 100%;
+        .Captain img {
+            width: 260px;
         }
         
         .text {
             padding: 10px 20px 10px;
-            font-size: 20px;
+            font-size: 18px;
+            width: 80%;
         }
         
-        .text2 {
+        .around_cover {
             display: flex;
             justify-content: center;
-            flex-direction: column;
-            padding: 10px 20px 10px;
-            font-size: 20px;
-            width: 70%;
-        }
-        
-        .text3 {
-            display: flex;
-            justify-content: left;
-            flex-direction: column;
-            padding: 10px 20px 10px;
-            font-size: 23px;
-            width: 60%;
-            color: rgb(0, 0, 0);
-            text-shadow: 0px 3px 5px rgba(192, 89, 89, 0.883);
-        }
-        
-        .box {
             background-color: rgba(255, 255, 255, 0.3);
-            box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.6);
+            border-radius: 50px;
+            box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+            padding: 3px;
             width: 100%;
-            height: 79vh;
         }
         
-        .spacemarine img {
-            width: 300px;
-        }
-        
-        .spacemarine1 img {
-            width: 200px;
-        }
-        
-        .spacemarine2 {
+        .Templar {
             display: flex;
             justify-content: center;
+            flex-direction: column;
+            width: 20%;
         }
         
-        .spacemarine2 img {
-            width: 150px;
+        .Templar img {
+            width: 195px;
         }
         
-        .spacemarine4 img {
-            width: 135px;
+        .comment {
+            font-size: 20px;
+            font-family: 'Amatic SC', sans-serif;
         }
         
-        .spacemarine5 img {
-            width: 350px;
+        .text_big {
+            padding: 10px 20px 10px;
+            font-size: 18px;
+            width: 100%;
         }
         
-        p {
-            font-family: 'Mason Chronicles';
-            text-indent: 20px;
+        .word {
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
         }
         
-        h3 {
-            font-size: 22px;
-            font-family: 'Mason Chronicles';
+        .word p {
+            text-indent: 0;
         }
+        
+        .Icon {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .Icon img {
+            width: 120px;
+        }
+        /*  Раздел --------------------------------------------------------------- */
+        
+        .screen {
+            min-height: 60vh;
+            margin: 0 auto;
+            background-image: url("./Introduction-artwork-v3-1.jpg");
+            box-shadow: 0px 5px 12px 5px rgba(0, 0, 0, 0.6);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            border: 10px solid;
+            border-image: url(./ramka.png) 35 round;
+            width: 100%;
+        }
+        /*  Раздел --------------------------------------------------------------- */
+        /* Глава II --------------------------------------------------------------- */
         
         .main2 {
             min-height: 100vh;
@@ -179,116 +159,501 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            box-shadow: 0px 5px 10px 8px rgba(52, 52, 53, 0.842);
-            padding-left: 20px;
-            padding-right: 20px;
+            box-shadow: 5px 5px 5px 12px rgba(31, 31, 31, 0.6);
+            padding-left: 30px;
+            padding-right: 30px;
             padding-top: 30px;
         }
         
-        .line {
-            min-height: 100vh;
-            background-image: url("./Introduction-artwork-v3-1.jpg");
-            border: 3px black solid;
-            box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
-            background-repeat: no-repeat;
-            width: 100%;
-            padding-bottom: 200px;
-        }
-        
-        .line2 {
-            height: 80vh;
-            background-image: url("./Abbadon.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            border: 3px black solid;
-            box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
-            width: 100%;
-            padding-bottom: 200px;
-        }
-        
-        .death {
+        .logo {
             display: flex;
             justify-content: center;
         }
         
-        .death video {
-            min-height: 20vh;
-            border: 3px black solid;
-            box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+        .logo img {
+            width: 150px;
+        }
+        
+        .between_cover {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+            padding: 3px;
             width: 100%;
         }
         
-        .main3 {
-            min-height: 100vh;
-            margin: 0 auto;
+        .Chaplain {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 20%;
+        }
+        
+        .Chaplain img {
+            width: 260px;
+        }
+        
+        .center_column_cover {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+            padding: 3px;
             width: 100%;
-            background-image: url("./death.gif");
-            background-position: fixed;
-            background-size: cover;
+        }
+        
+        .Techmarine {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 30%;
+        }
+        
+        .Techmarine img {
+            width: 260px;
+        }
+        /*  Раздел --------------------------------------------------------------- */
+        
+        .screen_2 {
+            height: 60vh;
+            background-image: url("./Abbadon.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            box-shadow: 0px 5px 10px 8px rgba(102, 103, 104, 0.7);
+            background-size: cover;
+            border-top: 5px black solid;
+            border-bottom: 5px black solid;
+            box-shadow: 0px 5px 10px 6px rgba(0, 0, 0, 0.7);
+            border: 10px solid;
+            border-image: url(./ramka.png) 35 round;
+            width: 100%;
+        }
+        /*  Раздел --------------------------------------------------------------- */
+        /* Глава III ---------------------------------------------------------------
+*/
+        
+        .main3 {
+            min-height: 80vh;
+            margin: 0 auto;
+            width: 100%;
+            background-image: url("./Death_3.gif");
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         
         .dop {
-            min-height: 100vh;
-            margin: 0 auto;
+            min-height: 80vh;
             width: 100%;
-            background-position: fixed;
             background-size: cover;
             background-repeat: no-repeat;
-            background-attachment: fixed;
             background-color: rgba(255, 255, 255, 0.3);
             box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.8);
             padding-left: 20px;
             padding-right: 20px;
             padding-top: 30px;
         }
+        
+        .Army {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .Army img {
+            width: 500px;
+        }
+        
+        .Boss {
+            width: 30%;
+        }
+        
+        .Boss img {
+            width: 350px;
+        }
+        
+        .last_word {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .Game {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .Game img {
+            width: 550px;
+        }
+        
+        .text_small {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 18px;
+        }
+        /* 1100 */
+        
+        @media screen and (max-width: 1100px) {
+            p {
+                font-family: 'Mason Chronicles';
+                text-indent: 15px;
+            }
+            .death {
+                min-height: 60vh;
+            }
+            /* Глава I */
+            .Cosmo {
+                display: none;
+            }
+            .text {
+                padding: 5px 15px 5px;
+                font-size: 16px;
+                width: 100%;
+            }
+            .Captain img {
+                width: 200px;
+            }
+            .Templar {
+                width: 25%;
+            }
+            .Templar img {
+                width: 145px;
+            }
+            .text_big {
+                padding: 5px 15px 5px;
+                font-size: 16px;
+                width: 100%;
+            }
+            .word {
+                font-size: 20px;
+            }
+            .Icon {
+                display: flex;
+                justify-content: center;
+            }
+            .Icon img {
+                width: 100px;
+            }
+            .screen {
+                min-height: 50vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            /* Глава II */
+            .logo {
+                display: flex;
+                justify-content: center;
+            }
+            .logo img {
+                width: 130px;
+            }
+            .Chaplain {
+                width: 25%;
+            }
+            .Chaplain img {
+                width: 200px;
+            }
+            .Techmarine {
+                width: 30%;
+            }
+            .Techmarine img {
+                width: 200px;
+            }
+            /*  Раздел --------------------------------------------------------------- */
+            .screen_2 {
+                min-height: 50vh;
+                background-attachment: local;
+                background-position: center center;
+            }
+            /*  Раздел --------------------------------------------------------------- */
+            /* Глава III */
+            .main3 {
+                min-height: 80vh;
+            }
+            .Army img {
+                width: 400px;
+            }
+            .Boss img {
+                width: 300px;
+            }
+        }
+        /* 800 */
+        
+        @media screen and (max-width: 800px) {
+            p {
+                font-family: 'Mason Chronicles';
+                text-indent: 10px;
+            }
+            /* .death {} */
+            /* Глава I */
+            .main {
+                min-height: 100vh;
+                margin: 0 auto;
+                width: 100%;
+                background-image: url("./introduction.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .Cosmo {
+                display: none;
+            }
+            .title {
+                width: 100%;
+            }
+            .title img {
+                width: 40px;
+            }
+            .between {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+                padding-top: 20px;
+            }
+            .Captain {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+            .Captain img {
+                width: 200px;
+            }
+            .text {
+                font-size: 15px;
+                width: 100%;
+            }
+            .around_cover {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                background-color: rgba(255, 255, 255, 0.3);
+                border-radius: 40px;
+                box-shadow: 0px 5px 10px 5px rgba(29, 29, 29, 0.8);
+                padding: 3px;
+                width: 100%;
+            }
+            .Templar {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                width: 100%;
+            }
+            .Templar img {
+                width: 145px;
+            }
+            .comment {
+                font-size: 17px;
+            }
+            .text_big {
+                font-size: 15px;
+                width: 100%;
+            }
+            .word {
+                display: flex;
+                justify-content: center;
+            }
+            .Icon img {
+                width: 80px;
+            }
+            .screen {
+                min-height: 40vh;
+                background-attachment: local;
+                background-position: center center;
+                border: 10px solid;
+                border-image: url(./ramka.png) 35 repeat;
+            }
+            /* Глава II */
+            .main2 {
+                min-height: 100vh;
+                margin: 0 auto;
+                width: 100%;
+                background-image: url("./introduction.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .logo {
+                display: flex;
+                justify-content: center;
+            }
+            .logo img {
+                width: 110px;
+            }
+            .between_cover {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                background-color: rgba(255, 255, 255, 0.3);
+                border-radius: 40px;
+                box-shadow: 0px 5px 10px 5px rgba(29, 29, 29, 0.8);
+                padding: 3px;
+                width: 100%;
+            }
+            .Chaplain {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                width: 100%;
+            }
+            .Chaplain img {
+                width: 200px;
+            }
+            .Techmarine {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                width: 100%;
+            }
+            .Techmarine img {
+                width: 200px;
+            }
+            .screen_2 {
+                min-height: 40vh;
+                background-attachment: local;
+                background-position: center center;
+                border: 10px solid;
+                border-image: url(./ramka.png) 35 repeat;
+            }
+            /* Глава III */
+            .main3 {
+                min-height: 40vh;
+                margin: 0 auto;
+                width: 100%;
+                background-image: url("./Death_2.gif");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .dop {
+                min-height: 50vh;
+                width: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: rgba(255, 255, 255, 0.3);
+                box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.8);
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-top: 10px;
+            }
+            .Army img {
+                width: 300px;
+            }
+            .Boss {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                width: 100%;
+            }
+            .Boss img {
+                width: 250px;
+            }
+            .last_word {
+                flex-direction: column;
+                width: 100%;
+            }
+            .Game {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+            .Game img {
+                width: 300px;
+            }
+            .text_small {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                padding-left: 35%;
+                padding-right: 35%;
+            }
+        }
+        
+        @media screen and (max-width: 450px) {
+            /* Глава I */
+            .main {
+                min-height: 80vh;
+                margin: 0 auto;
+                width: 100%;
+                background-image: url("./short.jpg");
+                background-size: contain;
+                background-repeat: repeat;
+                background-attachment: scroll;
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+            /* Глава II */
+            .main2 {
+                min-height: 80vh;
+                margin: 0 auto;
+                width: 100%;
+                background-image: url("./short.jpg");
+                background-size: contain;
+                background-repeat: repeat;
+                background-attachment: scroll;
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+            /* Глава III */
+            .main3 {
+                height: 50vh;
+                margin: 0 auto;
+                background-image: url("./Death_2.gif");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
     </style>
 </head>
 
 <body style='cursor:url("cursor.png"),auto'>
     <div class="death">
-        <video src="./Short_Trailer.mp4" autoplay muted loop></video>
+        <!-- <video src="./Trailer.mp4" autoplay muted loop type="video/mp4"></video> -->
     </div>
-
+    <!-- Глава I -->
     <div class="main">
+
         <div class="container"></div>
+
         <div class="title">
-            <img src="./Ultramarines.png" title="Ультрамарины">
-            <img src="./Blood_angels.png" title="Кровавые Ангелы">
-            <img src="./Imperial_fists.png" title="Имперские Кулаки">
-            <img src="./Iron_hands.png" title="Железные Руки">
-            <h1 align="center" style="font-family: 'Mason Chronicles', sans-serif;">Космодесант</h1>
-            <img src="./Raven_guard.png" title="Гвардия Ворона">
-            <img src="./White_scars.png" title="Белые Шрамы">
-            <img src="./Space_wolfs.png" title="Космические Волки">
-            <img src="./Dark_angels.png" title="Темные Ангелы">
+            <div class="Ul"><img src="./Salamanders.png" title="Саламандры"></div>
+            <div class="Ul"><img src="./Ultramarines.png" title="Ультрамарины"></div>
+            <div class="Ba"><img src="./Blood_angels.png" title="Кровавые Ангелы"></div>
+            <div class="Ia"><img src="./Imperial_fists.png" title="Имперские Кулаки"></div>
+            <div class="Ih"><img src="./Iron_hands.png" title="Железные Руки"></div>
+            <div class="Cosmo">
+                <h1 style="font-family: 'Mason Chronicles', sans-serif;">Космодесант</h1>
+            </div>
+            <div class="Rg"><img src="./Raven_guard.png" title="Гвардия Ворона"></div>
+            <div class="Ws"><img src="./White_scars.png" title="Белые Шрамы"></div>
+            <div class="Sw"><img src="./Space_wolfs.png" title="Космические Волки"></div>
+            <div class="Da"><img src="./Dark_angels.png" title="Темные Ангелы"></div>
+            <div class="Da"><img src="./Tearers.png" title="Потрошители"></div>
         </div>
 
-        <div class="top">
-            <div class="spacemarine">
-                <img src="./Captain2.png">
-            </div>
 
-            <div class="text">
-                <div class="container"></div>
-                <p align="right"><b>Ангелы смерти</b>
-                    <br>«Они должны быть чисты сердцем и сильны телом, незапятнанны сомнениями и свободны от гордыни.
-                    <br>Они будут яркими звёздами в небесных битвах, Ангелами Смерти, чьи сияющие крылья несут скорое
-                    <br>уничтожение врагам человечества. Да будет это так тысячи раз на протяжении тысяч лет, до самого
-                    <br>конца вечности и распада смертной плоти»
-                    <br><b>– Робаут Жиллиман, примарх Ультрамаринов</b>
-                </p>
-            </div>
+        <div class="between">
+            <div class="Captain"><img src="./Captain2.png"></div>
+
+            <p align="right" class="text"><b>Ангелы смерти</b>
+                <br>«Они должны быть чисты сердцем и сильны телом, незапятнанны сомнениями и свободны от гордыни.
+                <br>Они будут яркими звёздами в небесных битвах, Ангелами Смерти, чьи сияющие крылья несут скорое
+                <br>уничтожение врагам человечества. Да будет это так тысячи раз на протяжении тысяч лет, до самого
+                <br>конца вечности и распада смертной плоти»
+                <br><b>– Робаут Жиллиман, примарх Ультрамаринов</b>
+            </p>
+
         </div>
 
-        <div class="center">
-            <div class="container"></div>
+        <div class="around_cover">
 
             <div class="text">
-                <p>Аде́птус Аста́ртес (больше известные как космические десантники или Ангелы Смерти) — одни из самых элитных и устрашающих
+                <p><b>Аде́птус Аста́ртес</b> (больше известные как космические десантники или Ангелы Смерти) — одни из самых элитных и устрашающих
                     <br>вооружённых сил Империума. Основная организационная единица Астартес — орден, самостоятельная армия.Существует более тысячи орденов,
                     <br>но всё равно этого слишком мало для того, чтобы считать космических десантников основной военной силой Империума. Вместо этого
                     <br> они выступают в роли высокомобильных ударных сил. Им поручают выполнение самых опасных заданий, таких как молниеносные рейды
@@ -297,25 +662,26 @@
                 </p>
             </div>
 
-            <div class="spacemarine1">
+            <div class="Templar">
                 <img src="./Black_templar.png">
             </div>
 
         </div>
 
         <br>
-        <h3 style="font-family: 'Amatic SC', sans-serif;"><b>«Братья! Битва зовёт вас. Вы ответите?»</b></h3>
-        <h3 style="font-family: 'Amatic SC', sans-serif;"><b>– Капитан Катон Сикарий, Рыцарь-чемпион Макрагга</b></h3>
+        <p class="comment"><b>«Братья! Битва зовёт вас. Вы ответите?»</b></p>
+        <p class="comment"><b>– Капитан Катон Сикарий, Рыцарь-чемпион Макрагга</b></p>
         <br>
 
-        <div class="center">
-            <div class="container"></div>
+        <div class="around_cover">
 
-            <div class="text">
-                <h3 align="center"><b>История</b></h3>
-                <p class="spacemarine2" style="text-align: center;">
-                    <img src="./SM.png">
-                </p>
+            <div class="text_big">
+                <div class="word">
+                    <p><b>История</b></p>
+                </div>
+                <div class="Icon">
+                    <img src="./IF_icon.png"><img src="./Salamanders_icon.png"><img src="./Um_-_icon.png"><img src="./RG_icon.png"><img src="./WS_-_icon.png">
+                </div>
                 <p>Первые космодесантники были созданы с использованием генетического материала примархов после того, как их унесли от Императора энергии Богов Хаоса. Двадцать легионов космического десанта, созданных из генного материала двадцати примархов.</p>
 
 
@@ -335,26 +701,32 @@
         </div>
 
         <br>
-        <h3 style="font-family: 'Amatic SC', sans-serif;"><b>«Куда бы ты ни пошёл, шагай осторожнее. Мы ближе, чем ты думаешь и наши клинки остры»</b></h3>
-        <h3 style="font-family: 'Amatic SC', sans-serif;"><b>– Кайваан Шрайк, теневой капитан 3-й роты Гвардии Ворона</b></h3>
-        <br>
+        <p class="comment"><b>«Куда бы ты ни пошёл, шагай осторожнее. Мы ближе, чем ты думаешь и наши клинки остры»</b></h3>
+            <p class="comment"><b>– Кайваан Шрайк, теневой капитан 3-й роты Гвардии Ворона</b></p>
 
-        <div class="line">
-            <div class="container3"></div>
-        </div>
-        <br>
     </div>
+    <!-- Раздел -------------------------------------------------------------------- -->
+    <div class="screen"></div>
+    <!-- Раздел -------------------------------------------------------------------- -->
 
+
+    <!-- Глава II -->
     <div class="main2">
-        <h3 style="font-family: 'Amatic SC', sans-serif;"><b>«Не упоминай при мне Абаддона, это чернейшее из сердец, подлейшего из извергов. Кто ещё из рядов предателей с такой радостью принял проклятье?»</b></h3>
-        <h3 style="font-family: 'Amatic SC', sans-serif;"><b>– Робаут Жиллиман, примарх Ультрамаринов</b></h3>
+
+        <p class="comment"><b>«Камуфляж — цвет страха… Мне нет нужды прятаться от моих врагов. Я не боюсь смерти. Мои цвета, 
+                которые я ношу открыто, скажут больше, чем любые слова. Я горд жить — я горд умереть»</b></p>
+        <p class="comment"><b>– Караб Куллн, орден Красных Скорпионов</b></p>
+
+        <div class="logo"><img src="./SM.png"></div>
         <br>
-        <div class="center4">
-            <div class="spacemarine">
+        <div class="between_cover">
+            <div class="Chaplain">
                 <img src="./Chaplain_primaris.png">
             </div>
             <div class="text">
-                <h3 align="center"><b>Организационная структура</b></h3>
+                <div class="word">
+                    <p><b>Организационная структура</b></p>
+                </div>
                 <p>Адептус Астартес состоят в автономных орденах, каждый из которых представляет собой самостоятельную армию со своими собственными транспортными средствами, космическими кораблями, невоенным персоналом и крепостью-монастырём, расположенной
                     на планете или в космосе. Существует более тысячи орденов, каждым из которых управляет космодесантник в ранге магистра ордена. Стандартное число космодесантников в ордене составляет 1 000, разделённую на десять рот, каждая под руководством
                     отдельного капитана. Роты в свою очередь делятся на отделения из десяти боевых братьев каждое.</p>
@@ -366,70 +738,84 @@
             </div>
         </div>
         <br>
-        <div class="center5">
-            <div class="text">
-                <h3 align="center"><b>Тактическая организация</b></h3>
-                <p>Традиционный кодексный орден имеет в своём составе различные виды отделений: тактические, штурмовые и отделения опустошителей. Каждое отделение подготавливается и экипируется таким образом, чтобы выполнять специфическую роль на поле боя,
-                    каждый из трёх видов отделений дополняет друг друга в сражении и вместе они составляют единый организм, невероятно мощный и эффективный. Также, в дополнение к основным видам отделений, из воинов-ветеранов могут быть сформированы отделения
-                    ветеранов или терминаторов, а из новобранцев-космодесантников создают отделения скаутов.</p>
+        <div class="center_column_cover">
+            <div class="between">
+                <div class="text">
+                    <div class="word">
+                        <p><b>Тактическая организация</b></p>
+                    </div>
+                    <p>Традиционный кодексный орден имеет в своём составе различные виды отделений: тактические, штурмовые и отделения опустошителей. Каждое отделение подготавливается и экипируется таким образом, чтобы выполнять специфическую роль на поле
+                        боя, каждый из трёх видов отделений дополняет друг друга в сражении и вместе они составляют единый организм, невероятно мощный и эффективный. Также, в дополнение к основным видам отделений, из воинов-ветеранов могут быть сформированы
+                        отделения ветеранов или терминаторов, а из новобранцев-космодесантников создают отделения скаутов.</p>
 
-                <p>В отделения терминаторов входят наилучшие и самые умудрённые воины ордена и им выдаётся в пользование уникальная терминаторская броня. Такие отделения выполняют задачи, для которых требуется подавляющая огневая мощь и высочайшее боевое
-                    умение, они — самый тяжеловооружённый и мощный отряд, имеющийся в распоряжении ордена.</p>
-                <br>
-                <h3 align="center"><b>Культ ордена</b></h3>
+                    <p>В отделения терминаторов входят наилучшие и самые умудрённые воины ордена и им выдаётся в пользование уникальная терминаторская броня. Такие отделения выполняют задачи, для которых требуется подавляющая огневая мощь и высочайшее боевое
+                        умение, они — самый тяжеловооружённый и мощный отряд, имеющийся в распоряжении ордена.</p>
+                </div>
+                <div class="Techmarine">
+                    <img src="./Techmarine.png">
+                </div>
+            </div>
 
+            <div class="text_big">
+                <div class="word">
+                    <p><b>Культ ордена</b></p>
+                </div>
                 <p>Культ ордена — неотъемлемая часть ордена космодесанта. Каждый Астартес состоит в нём, и соответственно, все десантники ордена являются братьями по духу и по оружию. Такие воинские культы почитают честь, силу и товарищество. Зачастую этим
                     культам насчитывается тысячи лет и каждый из них развил свои собственные традиции и ритуалы. Некоторые из этих культов даже старше Имперского Культа, официальной религии Империума. Каждый культ уникален и независим, он управляется
                     жрецами и священниками самого ордена, известными как капелланы. По слухам, некоторые из ритуалов этих культов варварские и кровавые, впрочем, в основном это только слухи.</p>
             </div>
-            <div class="spacemarine">
-                <img src="./Techmarine.png">
-            </div>
         </div>
+        <br>
+        <div class="word">
+            <p><b>Предатели-десантники</b></p>
+        </div>
+
+
+        <div class="logo"><img src="./Ezekyle_Abaddon.png"></div>
+        <p>Десять тысяч лет назад, Хорус, Воитель Империума и самый доверенный сын Императора, попал под влияние Хаоса на Давине. Помимо Сынов Хоруса, легиона космического десанта под его непосредственным командованием, восемь из его братьев-примархов присоединились
+            к Воителю со своими легионами, начав галактическую гражданскую войну. Только когда Хорус был убит в решающей битве Ереси, битве за Терру, восстание было сломлено и побеждённые легионы предателей устремились в Око Ужаса, которое до сих пор
+            остаётся одновременно и тюрьмой, и храмом для них. Космодесантники Хаоса не забыли своё поражение и последние десять тысяч лет ведут Долгую Войну против Империума.</p>
+
 
         <br>
-        <div class="line2">
-            <div class="text3 box">
-
-                <h2 align="center" style="font-family: 'Mason Chronicles', sans-serif;"><b>Легионы предателей</b></h2>
-
-                <p class="spacemarine4" style="text-align: center;" ;>
-                    <img src="./Ezekyle_Abaddon.png">
-                </p>
-
-                <h2 align="center" style="font-family: 'Amatic SC', sans-serif;"><b>«— Сегодня ты в последний раз встречаешь рассвет, ультрадесантник, — Абаддон 
-                    <br>поднял вверх Коготь Хоруса, по которому тут же пробежала паутины молний. 
-                    <br>Обозревая поле предстоящей битвы, он переводил взгляд с одного воина на 
-                    <br>другого. — Ты звал меня, и вот, я здесь. Один. Неужели честь оставила тебя, раз 
-                    <br>ты окружил себя щитами? Думаешь они спасут тебя от меня? Или ты считаешь, 
-                    <br>что так у тебя появится шанс на победу?»</b></h2>
-
-                <p align="center"><b>«ВОЙНА КОШМАРОВ 14.989 VCM — ~25.141 VCM »</b></p>
-
-            </div>
-        </div>
-
+        <p class="comment"><b>«— Сегодня ты в последний раз встречаешь рассвет, ультрадесантник, — Абаддон поднял вверх Коготь Хоруса, по которому тут же пробежала паутины молний.  
+            <br>Обозревая поле предстоящей битвы, он переводил взгляд с одного воина на другого. — Ты звал меня, и вот, я здесь. Один. Неужели честь оставила тебя, раз
+            <br>ты окружил себя щитами? Думаешь они спасут тебя от меня? Или ты считаешь, что так у тебя появится шанс на победу?»</b></p>
+        <p class="comment"><b>«ВОЙНА КОШМАРОВ 14.989 VCM — ~25.141 VCM »</b></p>
+        <br>
+    </div>
+    <!-- Раздел -------------------------------------------------------------------- -->
+    <div class="screen_2"></div>
+    <!-- Раздел -------------------------------------------------------------------- -->
+    <div class="main2">
         <br>
         <h3 style="font-family: 'Amatic SC', sans-serif;"><b>«Не упоминай при мне Абаддона, это чернейшее из сердец, подлейшего из извергов. Кто ещё из рядов предателей с такой радостью принял проклятье?»</b></h3>
         <h3 style="font-family: 'Amatic SC', sans-serif;"><b>– Робаут Жиллиман, примарх Ультрамаринов</b></h3>
         <br>
 
-        <div class="center5">
-            <div class="text">
-                <h3 align="center"><b>Специализированные космодесантники</b></h3>
-                <p class="spacemarine5" style="text-align: center;" ;>
+        <div class="center_column_cover">
+            <div class="word">
+                <p><b>Специализированные космодесантники</b></p>
+            </div>
+            <div class="text_big">
+                <div class="Army">
                     <img src="./army.png">
-                </p>
+                </div>
+
                 <p>Ордены космических десантников имеют в своём составе различных специалистов, таких как технодесантники, капелланы, апотекарии и псайкеры — библиарии.</p>
                 <br>
-                <h3 align="center"><b>Вооружение космодесанта</b></h3>
+                <div class="word">
+                    <p><b>Вооружение космодесанта</b></p>
+                </div>
 
                 <p>Основным персональным оружием космического десантника является болтер и его пистолетный вариант — болт-пистолет.</p>
 
                 <p>Также, отличительной чертой всех космодесантников является cиловой доспех. Силовая броня, в которой они идут в бой. Некоторые члены первых рот орденов экипируются более тяжёлыми терминаторскими доспехами. Скауты же вместо силовой брони
                     носят панцирную броню. Существует также ещё один вид брони, называемый искусной бронёй, которой обладают наиболее прославленные и храбрые Астартес.</p>
                 <br>
-                <h3 align="center"><b>Набор и обучение</b></h3>
+                <div class="word">
+                    <p><b>Набор и обучение</b></p>
+                </div>
 
                 <p>Рекрутов набирают из самых лучших кандидатов-людей. Естественно, что миры смерти и дикие миры являются отличными источниками новобранцев, так как тяжёлая жизнь на таких мирах закаляет людей, делая их сильными и бесстрашными. Также считается
                     что миры-ульи являются идеальным источником потенциальных рекрутов, так как население их нижних уровней состоит из наиболее смертоносных представителей человечества. Зачастую целые банды подульев отлавливаются с целью поиска подходящих
@@ -443,8 +829,7 @@
             </div>
         </div>
 
-        <div class="center2">
-            <div class="container"></div>
+        <div class="between">
 
             <div class="text">
                 <p>«— Жиллиман… — в противоположность примарху, тонкие губы Кор Фаэрона скривились в гримасе. —
@@ -455,41 +840,48 @@
                     <br> – Аарон Дембски-Боуден, «Первый Еретик. Падение в Хаос»
                 </p>
             </div>
-            <div class="spacemarine5">
+
+            <div class="Boss">
                 <img src="./Boss.png">
             </div>
         </div>
-        <br>
-    </div>
 
+        <br>
+
+
+
+    </div>
+    <!-- Раздел -------------------------------------------------------------------- -->
+
+    <!-- Раздел -------------------------------------------------------------------- -->
     <div class="main3">
         <div class="dop">
-            <div class="center2">
-
-                <div>
+            <div class="last_word">
+                <div class="Game">
                     <img src="./play.png">
                 </div>
 
-                <div>
-                    <h2 align="center" style="font-family: 'Amatic SC', sans-serif;"><b>Узнать больше...</b></h2>
-                    <br>
-                    <h2 align="center" style="font-family: 'Amatic SC', sans-serif;"><b>Фракции:</b></h2>
+                <div class="text_small">
+                    <p class="comment"><b>Узнать больше...</b></p>
+
+                    <p class="comment"><b>Фракции:</b></p>
                     <ul>
                         <li>
-                            <p align="center" style="font-family: 'Amatic SC', sans-serif;"><b><a href="" style='cursor:url("cursor.png"),auto'>Космодесант Хаоса</a></b></p>
+                            <p class="comment"><b><a href="">Космодесант Хаоса</a></b></p>
                         </li>
                         <li>
-                            <p align="center" style="font-family: 'Amatic SC', sans-serif;"><b><a href="" style='cursor:url("cursor.png"),auto'>Адептус Кустодес</a></b></p>
+                            <p class="comment"><b><a href="">Адептус Кустодес</a></b></p>
                         </li>
                     </ul>
-                    <h2 align="center" style="font-family: 'Amatic SC', sans-serif;"><b>Магазин</b></h2>
+                    <p class="comment"><b>Магазин</b></p>
                     <li>
-                        <p align="center" style="font-family: 'Amatic SC', sans-serif;"><b><a href="" style='cursor:url("cursor.png"),auto'>Warhammer 40000</a></b></p>
+                        <p class="comment"><b><a href="">Warhammer 40000</a></b></p>
                     </li>
                 </div>
             </div>
 
         </div>
+    </div>
     </div>
 </body>
 
