@@ -284,6 +284,29 @@ p {
     width: 350px;
 }
 
+
+/*  Раздел --------------------------------------------------------------- */
+
+.screen_3 {
+    min-height: 120vh;
+    /* margin: 0 auto; */
+    background-image: url("map_logo.jpg");
+    box-shadow: 0px 5px 12px 5px rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    border: 10px solid;
+    border-image: url(./ramka.png) 35 round;
+    width: 100%;
+}
+
+.screen_3 img {
+    width: 50px;
+}
+
+
+/*  Раздел --------------------------------------------------------------- */
+
 .last_word {
     display: flex;
     justify-content: center;
