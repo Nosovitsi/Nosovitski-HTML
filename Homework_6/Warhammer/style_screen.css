@@ -425,8 +425,6 @@ p {
     /*  Раздел --------------------------------------------------------------- */
     .screen_3 {
         min-height: 100vh;
-        background-attachment: local;
-        background-position: center center;
     }
     /*  Раздел --------------------------------------------------------------- */
 }
@@ -631,10 +629,6 @@ p {
     }
     .screen_3 {
         min-height: 80vh;
-        background-attachment: local;
-        background-position: center center;
-        border: 10px solid;
-        border-image: url(./ramka.png) 35 repeat;
     }
 }
 
