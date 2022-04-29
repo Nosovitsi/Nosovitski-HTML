@@ -100,7 +100,7 @@ p {
 }
 
 .comment:hover {
-    transition: all 0.8s linear;
+    transition: all 0.4s linear;
     font-size: 22px;
 }
 
