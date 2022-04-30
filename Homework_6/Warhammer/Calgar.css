@@ -98,12 +98,12 @@
             }
             
             .Calgar_2 {
-                width: 200px;
+                width: 230px;
                 float: right;
             }
             
             .Old {
-                width: 230px;
+                width: 200px;
                 float: left;
             }
             
@@ -204,12 +204,29 @@
                 .word {
                     font-size: 20px;
                 }
+                /*  Раздел --------------------------------------------------------------- */
+                .screen {
+                    min-height: 60vh;
+                    background-attachment: local;
+                    background-position: right center;
+                    border: 10px solid;
+                    border-image: url("Media/ramka.png") 35 repeat;
+                }
+                /*  Раздел --------------------------------------------------------------- */
             }
             
             @media screen and (max-width: 800px) {
                 p {
                     font-family: 'Mason Chronicles';
                     text-indent: 10px;
+                }
+                .death {
+                    min-height: 40vh;
+                    margin: 0 auto;
+                    background-image: url("Media/Death_2.gif");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
                 }
                 /* Глава I */
                 .main {
@@ -276,13 +293,6 @@
                     font-size: 18px;
                 }
                 /*  Раздел --------------------------------------------------------------- */
-                .screen {
-                    min-height: 60vh;
-                    background-attachment: local;
-                    background-position: right;
-                    border: 10px solid;
-                    border-image: url("Media/ramka.png") 35 repeat;
-                }
                 /*  Раздел --------------------------------------------------------------- */
                 /* Глава I */
                 .Calgar_3 img {
