@@ -161,3 +161,82 @@
                     width: 220px;
                 }
             }
+            
+            @media screen and (max-width: 800px) {
+                p {
+                    font-family: 'Mason Chronicles';
+                    text-indent: 10px;
+                }
+                /* Глава I */
+                .main {
+                    min-height: 100vh;
+                    margin: 0 auto;
+                    width: 100%;
+                    background-image: url("Media/introduction.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                .Cosmo {
+                    display: none;
+                }
+                .title {
+                    width: 100%;
+                }
+                .title img {
+                    width: 40px;
+                }
+                .between {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100%;
+                    padding-top: 20px;
+                }
+                .Calgar {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+                .Calgar img {
+                    width: 200px;
+                }
+                .text {
+                    font-size: 15px;
+                    width: 100%;
+                }
+                .text_around {
+                    width: 100%;
+                }
+                .Calgar_1 {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                .Calgar_1 img {
+                    width: 120px;
+                }
+                .Calgar_2 {
+                    width: 180px;
+                }
+                .Old {
+                    width: 170px;
+                    float: left;
+                }
+                .comment {
+                    font-size: 17px;
+                }
+                .comment:hover {
+                    transition: all 0.8s linear;
+                    font-size: 18px;
+                }
+                .screen {
+                    min-height: 60vh;
+                    background-attachment: local;
+                    background-position: right;
+                    border: 10px solid;
+                    border-image: url("Media/ramka.png") 35 repeat;
+                }
+            }
