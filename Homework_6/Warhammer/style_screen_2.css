@@ -76,7 +76,6 @@ p {
 .text_center {
     padding: 10px 20px 10px;
     font-size: 18px;
-    width: 70%;
 }
 
 .around_cover {
@@ -93,7 +92,7 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     padding-left: 20px;
 }
 
@@ -147,8 +146,7 @@ p {
 }
 
 
-/*  Раздел ---------------------------------------------------------------
-*/
+/*  Раздел --------------------------------------------------------------- */
 
 .screen {
     min-height: 100vh;
@@ -184,13 +182,13 @@ p {
     padding-top: 30px;
 }
 
-.logo {
+.big_logo {
     display: flex;
     justify-content: center;
 }
 
 .logo img {
-    width: 150px;
+    width: 450px;
 }
 
 .between_cover {
@@ -236,10 +234,6 @@ p {
     width: 260px;
 }
 
-.abbadon {
-    color: brown;
-}
-
 
 /*  Раздел --------------------------------------------------------------- */
 
@@ -261,79 +255,6 @@ p {
 /*  Раздел ---------------------------------------------------------------
 */
 
-
-/* Глава III --------------------------------------------------------------- */
-
-.main3 {
-    min-height: 80vh;
-    margin: 0 auto;
-    width: 100%;
-    background-image: url("Media/Death_3.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.dop {
-    min-height: 80vh;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.8);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-}
-
-
-/*  Раздел --------------------------------------------------------------- */
-
-.screen_3 {
-    min-height: 120vh;
-    /* margin: 0 auto; */
-    background-image: url("Media/map_war.jpg");
-    box-shadow: 0px 5px 12px 5px rgba(0, 0, 0, 0.6);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    border: 10px solid;
-    border-image: url("Media/ramka.png") 35 round;
-    width: 100%;
-}
-
-.screen_3 img {
-    width: 50px;
-}
-
-
-/*  Раздел --------------------------------------------------------------- */
-
-.last_word {
-    display: flex;
-    justify-content: center;
-}
-
-.Game {
-    display: flex;
-    justify-content: center;
-}
-
-.Game img {
-    width: 550px;
-}
-
-.text_small {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 18px;
-}
-
-
-/* 1100 */
-
 @media screen and (max-width: 1100px) {
     p {
         font-family: 'Mason Chronicles';
@@ -351,14 +272,32 @@ p {
         font-size: 16px;
         width: 100%;
     }
+    .text_around {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
     .Calgar img {
         width: 220px;
     }
+    .around_cover {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 60px;
+        box-shadow: 0px 5px 10px 5px rgba(29, 29, 29, 0.8);
+        padding: 3px;
+        width: 100%;
+    }
     .Calgar_1 {
-        width: 25%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
     }
     .Calgar_1 img {
-        width: 145px;
+        width: 195px;
     }
     .comment {
         font-size: 19px;
@@ -416,15 +355,6 @@ p {
         background-position: center center;
     }
     /*  Раздел --------------------------------------------------------------- */
-    /* Глава III */
-    .main3 {
-        min-height: 80vh;
-    }
-    /*  Раздел --------------------------------------------------------------- */
-    .screen_3 {
-        min-height: 100vh;
-    }
-    /*  Раздел --------------------------------------------------------------- */
 }
 
 
@@ -474,6 +404,9 @@ p {
     }
     .text {
         font-size: 15px;
+        width: 100%;
+    }
+    .text_around {
         width: 100%;
     }
     .around_cover {
@@ -581,51 +514,6 @@ p {
         border: 10px solid;
         border-image: url("Media/ramka.png") 35 repeat;
     }
-    /* Глава III */
-    .main3 {
-        min-height: 40vh;
-        margin: 0 auto;
-        width: 100%;
-        background-image: url("Media/Death_2.gif");
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .dop {
-        min-height: 50vh;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-color: rgba(255, 255, 255, 0.3);
-        box-shadow: 0px 5px 10px 5px rgba(29, 37, 44, 0.8);
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 10px;
-    }
-    .last_word {
-        flex-direction: column;
-        width: 100%;
-    }
-    .Game {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .Game img {
-        width: 300px;
-    }
-    .text_small {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        padding-left: 35%;
-        padding-right: 35%;
-    }
-    .screen_3 {
-        min-height: 80vh;
-        border-image: url("Media/ramka.png") 35 round;
-    }
 }
 
 @media screen and (max-width: 450px) {
@@ -651,16 +539,6 @@ p {
         background-size: contain;
         background-repeat: repeat;
         background-attachment: scroll;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    /* Глава III */
-    .main3 {
-        height: 50vh;
-        margin: 0 auto;
-        background-image: url("Media/Death_2.gif");
-        background-size: cover;
-        background-repeat: no-repeat;
         padding-left: 5px;
         padding-right: 5px;
     }
