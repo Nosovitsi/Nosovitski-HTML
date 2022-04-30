@@ -151,21 +151,6 @@ p {
 
 /* Глава II --------------------------------------------------------------- */
 
-.main2 {
-    min-height: 100vh;
-    margin: 0 auto;
-    width: 100%;
-    background-image: url("Media/introduction.jpg");
-    background-position: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: 5px 5px 5px 12px rgba(31, 31, 31, 0.6);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-}
-
 .logo {
     display: flex;
     justify-content: center;
@@ -525,17 +510,6 @@ p {
         border-image: url("Media/ramka.png") 35 repeat;
     }
     /* Глава II */
-    .main2 {
-        min-height: 100vh;
-        margin: 0 auto;
-        width: 100%;
-        background-image: url("Media/introduction.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
     .logo {
         display: flex;
         justify-content: center;
@@ -651,17 +625,6 @@ p {
         padding-right: 5px;
     }
     /* Глава II */
-    .main2 {
-        min-height: 80vh;
-        margin: 0 auto;
-        width: 100%;
-        background-image: url("Media/short.jpg");
-        background-size: contain;
-        background-repeat: repeat;
-        background-attachment: scroll;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
     /* Глава III */
     .main3 {
         height: 50vh;
