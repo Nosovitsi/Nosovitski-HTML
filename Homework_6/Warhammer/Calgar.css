@@ -66,9 +66,10 @@
             }
             
             .text {
+                margin: 0 auto;
                 padding: 10px 20px 10px;
                 font-size: 18px;
-                width: 100%;
+                width: 80%;
             }
             
             .text_center {
@@ -79,6 +80,7 @@
             .around_cover {
                 display: flex;
                 justify-content: center;
+                flex-direction: column;
                 background-color: rgba(255, 255, 255, 0.3);
                 border-radius: 60px;
                 box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
@@ -87,8 +89,12 @@
             }
             
             .Calgar_1 {
-                width: 220px;
-                float: left;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .Calgar_1 img {
+                width: 450px;
             }
             
             .Calgar_2 {
@@ -97,7 +103,7 @@
             }
             
             .Old {
-                width: 190px;
+                width: 230px;
                 float: left;
             }
             
@@ -137,6 +143,40 @@
             /*  Раздел --------------------------------------------------------------- */
             /* Глава II --------------------------------------------------------------- */
             
+            .Tigurius {
+                width: 250px;
+                float: right;
+            }
+            
+            .center_column_cover {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                background-color: rgba(255, 255, 255, 0.3);
+                border-radius: 60px;
+                box-shadow: 0px 5px 10px 6px rgba(29, 37, 44, 0.55);
+                padding: 3px;
+                width: 100%;
+            }
+            
+            .Calgar_3 {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .Calgar_3 img {
+                width: 230px;
+            }
+            
+            .end_img {
+                display: flex;
+                justify-content: right;
+            }
+            
+            .end_img img {
+                width: 700px;
+            }
+            
             @media screen and (max-width: 1100px) {
                 p {
                     font-family: 'Mason Chronicles';
@@ -156,9 +196,13 @@
                 }
                 .text_center {
                     font-size: 16px;
+                    width: 100%;
                 }
                 .Calgar img {
                     width: 220px;
+                }
+                .word {
+                    font-size: 20px;
                 }
             }
             
@@ -208,15 +252,11 @@
                     width: 100%;
                 }
                 .text_around {
+                    font-size: 15px;
                     width: 100%;
                 }
-                .Calgar_1 {
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                }
                 .Calgar_1 img {
-                    width: 120px;
+                    width: 280px;
                 }
                 .Calgar_2 {
                     width: 180px;
@@ -232,11 +272,35 @@
                     transition: all 0.8s linear;
                     font-size: 18px;
                 }
+                .word {
+                    font-size: 18px;
+                }
+                /*  Раздел --------------------------------------------------------------- */
                 .screen {
                     min-height: 60vh;
                     background-attachment: local;
                     background-position: right;
                     border: 10px solid;
                     border-image: url("Media/ramka.png") 35 repeat;
+                }
+                /*  Раздел --------------------------------------------------------------- */
+                /* Глава I */
+                .Calgar_3 img {
+                    width: 180px;
+                }
+            }
+            
+            @media screen and (max-width: 450px) {
+                /* Глава I */
+                .main {
+                    min-height: 80vh;
+                    margin: 0 auto;
+                    width: 100%;
+                    background-image: url("Media/short.jpg");
+                    background-size: contain;
+                    background-repeat: repeat;
+                    background-attachment: scroll;
+                    padding-left: 5px;
+                    padding-right: 5px;
                 }
             }

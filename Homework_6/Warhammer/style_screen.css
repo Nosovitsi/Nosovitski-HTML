@@ -498,6 +498,7 @@ p {
     .word {
         display: flex;
         justify-content: center;
+        font-size: 18px;
     }
     .Icon img {
         width: 80px;
