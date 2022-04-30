@@ -383,8 +383,6 @@ p {
     }
     .screen {
         min-height: 50vh;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     /* Глава II */
     .logo {
@@ -404,7 +402,6 @@ p {
     .screen_2 {
         min-height: 50vh;
         background-attachment: local;
-        background-position: center center;
         background-position: right center;
     }
     /*  Раздел --------------------------------------------------------------- */
@@ -426,7 +423,9 @@ p {
     }
     /*  Раздел --------------------------------------------------------------- */
     .screen_3 {
-        min-height: 100vh;
+        min-height: 50vh;
+        background-attachment: local;
+        background-position: center;
     }
     /*  Раздел --------------------------------------------------------------- */
 }
@@ -586,8 +585,9 @@ p {
         padding-right: 35%;
     }
     .screen_3 {
-        min-height: 80vh;
-        border-image: url("Media/ramka.png") 35 round;
+        height: 85vh;
+        background-position: left center;
+        border-image: url("Media/ramka.png") 35 repeat;
     }
 }
 
