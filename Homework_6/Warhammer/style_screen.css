@@ -93,6 +93,7 @@ p {
 .Templar {
     float: right;
     width: 195px;
+    shape-outside: polygon(61.29% -4.56%, 102.31% 98.65%, 27.56% 99.09%, 46.02% 55.28%, 14.61% 62.74%);
 }
 
 .comment {
@@ -179,6 +180,7 @@ p {
 .Chaplain {
     float: left;
     width: 240px;
+    shape-outside: polygon(64.21% -4.56%, 98.15% 95.88%, 16.73% 97.36%, 42.69% 49.73%, 2.94% 65.17%);
 }
 
 .Tactical_Organization {
@@ -196,6 +198,7 @@ p {
 .Techmarine {
     float: right;
     width: 260px;
+    shape-outside: polygon(98.06% 26.09%, 88.53% 97.04%, 16.73% 97.36%, 32.69% 70.68%, 3.71% 17.07%);
 }
 
 .abbadon {
@@ -286,7 +289,8 @@ p {
 
 .Chaplain_on_bike {
     float: left;
-    width: 300px
+    width: 300px;
+    shape-outside: polygon(77.73% 45.14%, 97.53% 98.10%, 14.06% 98.07%, 6.36% 49.16%, 44.04% -0.57%, 47.34% 34.19%);
 }
 
 
