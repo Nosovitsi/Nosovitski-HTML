@@ -217,13 +217,13 @@
                     shape-outside: polygon(97.23% 42.9%, 91.70% 98.50%, 10.56% 97.32%, 6.36% 42.81%, 49.04% 0.55%, 72.84% 22.99%);
                 }
                 /*  Раздел --------------------------------------------------------------- */
-                .screen {
+                /* .screen {
                     min-height: 60vh;
                     background-attachment: local;
                     background-position: right center;
                     border: 10px solid;
                     border-image: url("Media/ramka.png") 35 repeat;
-                }
+                } */
                 /*  Раздел --------------------------------------------------------------- */
                 .Tigurius {
                     width: 200px;
