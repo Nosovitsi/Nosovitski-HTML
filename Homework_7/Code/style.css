@@ -1,0 +1,25 @@
+* {
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    width: 350px;
+}
+
+.list ul {
+    list-style-type: roman;
+}
+
+.list li {
+    list-style-type: lower-roman;
+}
+
+.container {
+    background-color: black;
+    color: green;
+    height: 100px;
+    width: 400px;
+    overflow: auto;
+}
