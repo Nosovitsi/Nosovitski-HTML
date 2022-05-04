@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: rgba(172, 169, 169, 0.731);
+}
+
+.Navigation_block {
+    float: left;
+    width: 15em;
+    background-color: tomato;
+}
+
+.Article {
+    margin-bottom: .2em;
+    margin-left: 15em;
+    background-color: darkolivegreen;
+}
+
+.img {
+    float: right;
+    width: 200px;
+}
+
+.clearfix {
+    clear: right;
+}
+
+.footer {
+    width: 100%;
+    background-color: bisque;
+}
