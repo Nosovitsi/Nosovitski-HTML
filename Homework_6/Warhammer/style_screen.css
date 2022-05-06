@@ -52,6 +52,33 @@ p {
     width: 50px;
 }
 
+.Sl {
+    transform: scale(1, 1);
+}
+
+.Sl:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
+.Ul {
+    transform: scale(1, 1);
+}
+
+.Ul:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
+.Ba {
+    transform: scale(1, 1);
+}
+
+.Ba:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
 .between {
     display: flex;
     justify-content: space-between;

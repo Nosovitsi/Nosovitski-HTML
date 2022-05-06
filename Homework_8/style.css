@@ -34,6 +34,7 @@ div.MenuLevel2>div {
     border: solid rgb(0, 0, 0) 1px;
     cursor: pointer;
     color: rgb(83, 214, 83);
+    transform: scale(1, 1);
 }
 
 div.main>div:hover div.MenuLevel2 {
@@ -42,6 +43,11 @@ div.main>div:hover div.MenuLevel2 {
     left: 0%;
     top: 100%;
     z-index: 1
+}
+
+.MenuLevel2:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(1.5, 1.5);
 }
 
 @media screen and (max-width: 1400px) {
