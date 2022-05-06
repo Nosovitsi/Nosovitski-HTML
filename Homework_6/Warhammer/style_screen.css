@@ -79,6 +79,69 @@ p {
     transform: scale(-1.5, 1.5);
 }
 
+.Ia {
+    transform: scale(1, 1);
+}
+
+.Ia:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
+.Ih {
+    transform: scale(1, 1);
+}
+
+.Ih:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
+.Rg {
+    transform: scale(1, 1);
+}
+
+.Rg:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
+.Ws {
+    transform: scale(1, 1);
+}
+
+.Ws:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
+.Sw {
+    transform: scale(1, 1);
+}
+
+.Sw:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
+.Da {
+    transform: scale(1, 1);
+}
+
+.Da:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
+.Tr {
+    transform: scale(1, 1);
+}
+
+.Tr:hover {
+    transition: all 0.8s ease 0s;
+    transform: scale(-1.5, 1.5);
+}
+
 .between {
     display: flex;
     justify-content: space-between;
