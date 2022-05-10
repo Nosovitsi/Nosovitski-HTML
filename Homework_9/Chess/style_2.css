@@ -1,17 +1,17 @@
 table.CHESS {
     border-collapse: collapse;
-    counter-reset: q 65;
+    counter-reset: Chess 65;
 }
 
 table.CHESS td {
     width: 50px;
     height: 50px;
     border: solid rgb(0, 0, 0) 3px;
-    counter-increment: q -1;
+    counter-increment: Chess -1;
 }
 
 table.CHESS td::before {
-    content: counter(q)
+    content: counter(Chess)
 }
 
 tr:nth-child(even) td:nth-child(even) {
