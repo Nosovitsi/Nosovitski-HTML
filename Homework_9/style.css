@@ -1,0 +1,113 @@
+.main {
+    border: 1px solid gray;
+    border-radius: 0px 25px 0px 25px;
+    padding: 10px;
+}
+
+.link span {
+    position: absolute;
+    left: 265px;
+    top: 95px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link:hover span {
+    opacity: 1;
+}
+
+.link_2 span {
+    position: absolute;
+    left: 175px;
+    top: 185px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link_2:hover span {
+    opacity: 1;
+}
+
+.link_3 span {
+    position: absolute;
+    left: 260px;
+    top: 245px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link_3:hover span {
+    opacity: 1;
+}
+
+.link_4 span {
+    position: absolute;
+    left: 140px;
+    top: 315px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link_4:hover span {
+    opacity: 1;
+}
+
+.link_5 span {
+    position: absolute;
+    left: 260px;
+    top: 395px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link_5:hover span {
+    opacity: 1;
+}
+
+.link_6 span {
+    position: absolute;
+    left: 140px;
+    top: 475px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link_6:hover span {
+    opacity: 1;
+}
+
+.link_7 span {
+    position: absolute;
+    left: 165px;
+    top: 580px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link_7:hover span {
+    opacity: 1;
+}
+
+.link_8 span {
+    position: absolute;
+    left: 135px;
+    top: 600px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link_8:hover span {
+    opacity: 1;
+}
+
+.link_9 span {
+    position: absolute;
+    left: 85px;
+    top: 620px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.link_9:hover span {
+    opacity: 1;
+}
