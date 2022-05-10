@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.head {
+    background: rgb(131, 131, 131);
+}
+
+.bottom {
+    border-top: 1px rgb(167, 166, 166) dotted;
+}
+
+.th {
+    border-right: 1px rgb(167, 166, 166) dotted;
+    border-bottom: 1px rgb(167, 166, 166) dotted;
+}
+
+.grey {
+    background: rgb(202, 202, 202);
+}
+
+tr:hover .hover {
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+}
