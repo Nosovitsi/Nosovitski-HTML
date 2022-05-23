@@ -1,0 +1,28 @@
+.menu {
+    width: 200px;
+    background-color: rgb(35, 35, 35);
+    color: azure;
+    position: relative;
+}
+
+.list {
+    position: absolute;
+    display: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(35, 35, 35);
+    color: azure;
+    width: 200px;
+    padding-left: 5px;
+}
+
+a:hover {
+    color: darkred;
+}
+
+.menu:hover .list {
+    display: block;
+}
